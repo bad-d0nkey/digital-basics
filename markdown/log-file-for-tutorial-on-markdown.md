@@ -27,7 +27,7 @@ The only thing I can think of right now is that this is what we're using for our
 	
 	See? Fancy. 
 
-	![[markdown-post-it.jpg]]
+	![markdown-post-it.jpg](markdown-post-it.jpg)
 
 ## challenges 
 
