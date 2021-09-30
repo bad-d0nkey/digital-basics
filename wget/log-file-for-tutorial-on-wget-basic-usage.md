@@ -1,5 +1,5 @@
 ---
-tutorial: wget
+tutorial: wget_basic-usage
 date: {{30-09-21}}
 tags: digital_basics, wget
 ---
