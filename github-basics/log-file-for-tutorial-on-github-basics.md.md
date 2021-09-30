@@ -35,7 +35,7 @@ I'm not sure about the _how_. I know it will. A lot of the projects I am interes
 + step 3: created a repository and added readme locally
 	+ Okay, this just did not work. I could get the file to write, but the final step (with the -u flag) delivered an error message every time. It just would not push the readme to github online. 
 	
-	[command-line-readme.png]
+	![command line pic](command-line-readme.png)
 	
 + step 4: started to look for a fix
 	+ And then remembered all the other times I had failed because I tried to "understand all the things" and stopped. 
@@ -45,11 +45,11 @@ I'm not sure about the _how_. I know it will. A lot of the projects I am interes
 	+ This worked immediately. I had downloaded github for desktop, knowing that I intend to use this in future. I hadn't been able to figure it out up to now because I didn't know *why* I would want to do this. 
 	+ Knowing that _why_ I want to do this is to accomplish a narrow task for this exercise, I had a purpose and didn't need to identify what of the 1,000 things online I needed to focus on. Focusing _only_ on the steps that had been covered in the tutorial and not the thousand other overwhelming things, I was able to create the file locally
 	
-		+ ![[readme2.png]]
+	![readme2](readme2.png)
 	
-	    _and_ see it show up online shortly thereafter (readme2.md)
+	_and_ see it show up online shortly thereafter (readme2.md)
 	
-		+ ![[readme2online 1.png]]
+	![readme2 online](readme2online.png)
 
 + step 6: created skeleton of "academic profile"
 	+ I wanted to take this one step farther. One step is growth and is enough even if it doesn't really make any sense to do it. I have now done the things _and_ done something with it. In future, I will continue from this step. At least it is started and I now have something to hang the other steps on. 
