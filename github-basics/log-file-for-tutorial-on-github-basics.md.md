@@ -15,14 +15,14 @@ I also began the "Build Your Presence" tutorial.
 My attention was on doing the basics _right_. I can jury-rig my way through things, but it's not in a fun "try and fail" way - it's actually really counterproductive. I wanted to fill in the gaps so attempts/fails actually got somewhere beyond the first step. You know that "if nothing happens in the first half hour..." expression you have? It was an endless series of frustrating half-hours that never got beyond that. No more!
 
 + link to the test file repo (**NB**: I created this repo following the tutorial - there is no documentation for the activity itself): 
-	[how-did-they-do-that](https://github.com/bad-d0nkey/how-did-they-do-that)
+	`[how-did-they-do-that](https://github.com/bad-d0nkey/how-did-they-do-that)`
 
 + link to the web page repo (**NB**: my "success" was working through the first step - not in editing the page):
-	[academic-kickstart](https://github.com/bad-d0nkey/academic-kickstart)
+	`[academic-kickstart](https://github.com/bad-d0nkey/academic-kickstart)`
 	
 ## how it might connect to other research I'm doing
 
-I'm not sure about the _how_. I know it will. A lot of the projects I am interested in use GitHub. Because I didn't know how to use it, I didn't understand how to explore what was there, really. Now that I sort of understand, I will be able to see what potentials there are, what else to learn, and why those things over others. [Markdown](log-file-for-tutorial-on-markdown.md), of course, links to this.
+I'm not sure about the _how_. I know it will. A lot of the projects I am interested in use GitHub. Because I didn't know how to use it, I didn't understand how to explore what was there, really. Now that I sort of understand, I will be able to see what potentials there are, what else to learn, and why those things over others. [Markdown](https://github.com/bad-d0nkey/digital-basics/blob/main/markdown/log-file-for-tutorial-on-markdown.md), of course, links to this.
 
 ## what I did
 
