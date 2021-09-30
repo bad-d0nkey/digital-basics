@@ -8,7 +8,7 @@ tags: digital_basics, markdown
 
 I tinkered around with markdown. To try and learn... markdown.
 
-+ link to the relevant github repo: like this: `[hist-5706/digital-basics/markdown](https://github.com/bad-d0nkey/hist-5706/tree/main/digital-basics/markdown)`
++ link to the repo: [hist-5706/digital-basics/markdown](https://github.com/bad-d0nkey/hist-5706/tree/main/digital-basics/markdown)
 
 ## how it might connect to other research I'm doing
 
@@ -27,7 +27,7 @@ The only thing I can think of right now is that this is what we're using for our
 	
 	See? Fancy. 
 
-	![markdown-post-it.jpg](markdown-post-it.jpg)
+	![markdown pic](markdown-post-it.jpg)
 
 ## challenges 
 
@@ -41,4 +41,4 @@ The approach I was using before may explain some of the difficulties I've had wi
 
 Honestly, I'm good here. I'm going to keep practising on my own and looking into some of the problems I've had (like doing tables - is this an Obsidian thing or do I generally have it wrong?) when they come up again. 
 
-This is on my list of daily doings and I don't feel the need to chat about it presently. Plus, when a specific issue comes up, I can go to the intertubes first. I'm not exactly putting markdown through its paces with my level of use, so I'm not entirely sure there will be many challenges to record before this course wraps up. 
+This is on my list of daily doings and I don't feel the need to chat about it presently. Plus, when a specific issue comes up, I can go to the intertubes first. I'm not exactly putting markdown through its paces with my level of use, so I'm not entirely sure there will be many challenges to record before this course wraps up. This will be an "as it comes" sort of deal.
