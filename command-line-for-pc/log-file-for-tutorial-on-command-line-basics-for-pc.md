@@ -9,7 +9,7 @@ tags: command_line, digital_basics
 Was getting myself oriented in the command prompt/terminal environment. 
 
 + link to repo: `[command-line-for-pc](https://github.com/bad-d0nkey/digital-basics/tree/main/command-line-for-pc)`
-	+ it's not very exciting - it is just this note and the other note I linked to internally 	
+	+ it's not very exciting - it is just this note	
 
 ## how it might connect to other research I'm doing
 
@@ -66,4 +66,4 @@ this exercise was fairly straightforward. i ran through it several times. i read
 
 i am looking for additional lessons that actually explain the point of something and why you would want to do it and give some exercises with results. resources abound, but good ones that do what i'm looking for are less common. i can ask in discord if anyone knows of such a place for additional command line stuff. if not, it's back to the intertubes - which may go better now that i understand a tiny bit more and can probably make use of a little more information. 
 
-oh. come to think of it, if i could get to the point where i'm clear enough on what to do to work out what the hell is going on in the github-at-the-command-line thing (not to use it, necessarily, but to be able to recognise the pieces and the whys), that might be a good thing that (a) shows progress, and (b) might turn out to be useful, though i'm not sure i'll ever co-code anything with someone like that.
+oh. come to think of it, if i could get to the point where i'm clear enough on what to do to work out what the hell is going on in the [github-at-the-command-line thing](https://github.com/bad-d0nkey/digital-basics/blob/main/github-basics/log-file-for-tutorial-on-github-basics.md.md) (not to use it, necessarily, but to be able to recognise the pieces and the whys), that might be a good thing that (a) shows progress, and (b) might turn out to be useful, though i'm not sure i'll ever co-code anything with someone like that.
