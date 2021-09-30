@@ -46,7 +46,7 @@ i am actually not sure yet. the term has come up a few times, so i know it's som
 + step 6: tried to save output
 	+ again, this is a terminology thing - i know "output" is probably problematic terminology for this
 	+ i found results for very specific scenarios that seemed to be talking about the same thing i am, but they were ultimately not helpful
-	+ i manually copied the results and pasted them into a .txt file. [right here, in fact](wget_output)
+	+ i manually copied the results and pasted them into a .txt file. [right here, in fact](https://github.com/bad-d0nkey/digital-basics/blob/4fe395b0f304124bd13f5dfcffb34ecc43be00bf/wget/wget_output.txt)
  	
 + step 7: tried to noodle out where these results went and why the directory thing mattered
 	+ the results don't show up in the directory
