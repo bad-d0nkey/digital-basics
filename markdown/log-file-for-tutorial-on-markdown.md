@@ -8,7 +8,7 @@ tags: digital_basics, markdown
 
 I tinkered around with markdown. To try and learn... markdown.
 
-+ link to the repo: [hist-5706/digital-basics/markdown](https://github.com/bad-d0nkey/hist-5706/tree/main/digital-basics/markdown)
++ link to the repo: `[hist-5706/digital-basics/markdown](https://github.com/bad-d0nkey/hist-5706/tree/main/digital-basics/markdown)`
 
 ## how it might connect to other research I'm doing
 
