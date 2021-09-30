@@ -1,5 +1,5 @@
 ---
-tutorial:
+tutorial: wget
 date: {{30-09-21}}
 tags: digital_basics, wget
 ---
@@ -7,7 +7,7 @@ tags: digital_basics, wget
 # what I was trying to do
 
 i attempted the wget tutorial. to learn wget. 
-okay, that's a lie. it's because i secretly want to terrorize the province of quebec and i've heard this is a good way to start. 
+okay, that's a lie. it's because i secretly want to terrorize the province of quebec and i've heard this is a good place to start. 
 
 + link to the tutorial: https://graddh.netlify.app/docs/tutorials/wget/
 + link to repo: like this: `[wget](https://github.com/bad-d0nkey/digital-basics/wget)`
