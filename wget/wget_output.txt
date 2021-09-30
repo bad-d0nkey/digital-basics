@@ -1,0 +1,1861 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\lefev> pwd
+
+Path
+----
+C:\Users\lefev
+
+
+PS C:\Users\lefev> ls
+
+
+    Directory: C:\Users\lefev
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----           6/16/21     07:52                .conda
+d-----           6/17/21     09:40                .idlerc
+d-----           4/04/21     09:17                .ipython                                                              d-----           8/24/21     16:12                .jupyter                                                              d-----           2/18/21     13:03                .ssh                                                                  d-r---           5/01/21     16:23                3D Objects                                                            d-----           6/16/21     07:18                anaconda3
+d-----          10/19/20     20:26                audio2
+d-r---           5/01/21     16:23                Contacts
+d-r---           9/30/21     11:09                Downloads
+d-r---           5/01/21     16:23                Favorites
+d-r---           7/04/21     20:39                Links
+d-r---           5/01/21     16:23                Music
+d-----           6/10/21     22:21                mu_code
+dar--l           9/30/21     11:02                OneDrive
+d-r---           5/01/21     16:23                Saved Games
+d-r---           6/22/21     19:51                Searches
+d-r---           9/30/21     11:02                Sync
+d-----           4/12/21     14:54                tutorial_env
+d-r---           5/01/21     16:23                Videos
+d-----           9/30/21     09:26                wget-activehistory
+d-----           9/27/21     19:06                Zotero
+-a----           9/29/21     12:24           1227 .bash_history
+-a----           6/16/21     07:12             43 .condarc
+-a----           9/14/21     10:33            192 .gitconfig
+
+
+PS C:\Users\lefev> cd wget-activehistory
+PS C:\Users\lefev\wget-activehistory> wget http://activehistory.ca/papers
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : <!DOCTYPE html>
+                    <!--[if IE 7]>
+                    <html class="ie ie7" lang="en-CA">
+                    <![endif]-->
+                    <!--[if IE 8]>
+                    <html class="ie ie8" lang="en-CA">
+                    <![endif]-->
+                    <!--[if !(IE 7) & !(IE 8)]><!-->
+                    <html lang="en-CA...
+RawContent        : HTTP/1.1 200 OK
+                    Link: <http://activehistory.ca/wp-json/>;
+                    rel="https://api.w.org/",<http://activehistory.ca/wp-json/wp/v2/pages/23>; rel="alternate";
+                    type="application/json",<https://wp.me/P2QQbJ-n>;...
+Forms             : {searchform-toggle, searchform-movil, searchform, subscribe-blog-blog_subscription-3...}
+Headers           : {[Link, <http://activehistory.ca/wp-json/>;
+                    rel="https://api.w.org/",<http://activehistory.ca/wp-json/wp/v2/pages/23>; rel="alternate";
+                    type="application/json",<https://wp.me/P2QQbJ-n>; rel=shortlink], [Vary, Accept-Encoding],
+                    [Transfer-Encoding, chunked], [Content-Type, text/html; charset=UTF-8]...}
+Images            : {@{innerHTML=; innerText=; outerHTML=<IMG class=header-image alt="Active History"
+                    src="http://activehistory.ca/wp-content/uploads/2021/06/cropped-ActiveHist2019_icon_orange2.jpg"
+                    width=400 height=400>; outerText=; tagName=IMG; class=header-image; alt=Active History;
+                    src=http://activehistory.ca/wp-content/uploads/2021/06/cropped-ActiveHist2019_icon_orange2.jpg;
+                    width=400; height=400}, @{innerHTML=; innerText=; outerHTML=<IMG style="BORDER-LEFT-WIDTH: 0px;
+                    BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px" alt="Creative Commons
+                    Licence" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png">; outerText=; tagName=IMG;
+                    style=BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH:
+                    0px; alt=Creative Commons Licence; src=https://i.creativecommons.org/l/by-nd/4.0/80x15.png},
+                    @{innerHTML=; innerText=; outerHTML=<IMG src="http://activehistory.ca/wp-content/uploads/2017/02/us
+                    ask_ArtsScience_History_black_reverse.png">; outerText=; tagName=IMG; src=http://activehistory.ca/w
+                    p-content/uploads/2017/02/usask_ArtsScience_History_black_reverse.png}, @{innerHTML=; innerText=;
+                    outerHTML=<IMG
+                    outerText=; tagName=IMG;
+                    src=http://activehistory.ca/wp-content/uploads/2017/02/huronuc_horiz_rgb_black_reverse_720.png}...}
+InputFields       : {@{innerHTML=; innerText=; outerHTML=<INPUT id=s class=txt-search name=s placeholder="Search...">;
+                    outerText=; tagName=INPUT; id=s; class=txt-search; name=s; placeholder=Search...}, @{innerHTML=;
+                    innerText=; outerHTML=<INPUT id=btn-search type=submit value=Search name=submit>; outerText=;
+                    tagName=INPUT; id=btn-search; type=submit; value=Search; name=submit}, @{innerHTML=; innerText=;
+                    outerHTML=<INPUT id=s class=txt-search-movil name=s placeholder="Search...">; outerText=;
+                    tagName=INPUT; id=s; class=txt-search-movil; name=s; placeholder=Search...}, @{innerHTML=;
+                    outerText=; tagName=INPUT; id=btn-search-movil; type=submit; value=Search; name=submit}...}
+Links             : {@{innerHTML=<IMG class=header-image alt="Active History"
+                    src="http://activehistory.ca/wp-content/uploads/2021/06/cropped-ActiveHist2019_icon_orange2.jpg"
+                    width=400 height=400>; innerText=; outerHTML=<A href="http://activehistory.ca/"><IMG
+                    class=header-image alt="Active History"
+                    src="http://activehistory.ca/wp-content/uploads/2021/06/cropped-ActiveHist2019_icon_orange2.jpg"
+                    width=400 height=400></A>; outerText=; tagName=A; href=http://activehistory.ca/},
+                    @{innerHTML=Active History; innerText=Active History; outerHTML=<A title="Active History"
+                    href="http://activehistory.ca/" rel=home>Active History</A>; outerText=Active History; tagName=A;
+                    title=Active History; href=http://activehistory.ca/; rel=home}, @{innerHTML=Home; innerText=Home;
+                    outerHTML=<A href="http://activehistory.ca/">Home</A>; outerText=Home; tagName=A;
+                    href=http://activehistory.ca/}, @{innerHTML=About; innerText=About; outerHTML=<A
+                    href="http://activehistory.ca/about/">About</A>; outerText=About; tagName=A;
+                    href=http://activehistory.ca/about/}...}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 50738
+
+
+
+PS C:\Users\lefev\wget-activehistory> wget -r -np -w 2 --limit-rate=20k http://activehistory.ca/papers/
+Invoke-WebRequest : Cannot bind parameter 'WebSession'. Cannot convert the "2" value of type "System.Int32" to type
+"Microsoft.PowerShell.Commands.WebRequestSession".
+At line:1 char:16
++ wget -r -np -w 2 --limit-rate=20k http://activehistory.ca/papers/
++                ~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+
+PS C:\Users\lefev\wget-activehistory> wget.exe -r -np -w 2 --limit-rate=20k http://activehistory.ca/papers/
+--2021-09-30 11:28:30--  http://activehistory.ca/papers/
+Resolving activehistory.ca (activehistory.ca)... 142.93.149.250
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/index.html'
+
+activehistory.ca/papers/index     [        <=>                                       ]  49.55K  19.9KB/s    in 2.5s
+
+2021-09-30 11:28:34 (19.9 KB/s) - 'activehistory.ca/papers/index.html' saved [50738]
+
+Loading robots.txt; please ignore errors.
+--2021-09-30 11:28:36--  http://activehistory.ca/robots.txt
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 222 [text/plain]
+Saving to: 'activehistory.ca/robots.txt'
+
+activehistory.ca/robots.txt   100%[=================================================>]     222  --.-KB/s    in 0s
+
+2021-09-30 11:28:36 (3.11 MB/s) - 'activehistory.ca/robots.txt' saved [222/222]
+
+--2021-09-30 11:28:38--  http://activehistory.ca/papers/themes
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/themes/ [following]
+--2021-09-30 11:28:41--  http://activehistory.ca/papers/themes/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  38.23K  19.9KB/s    in 1.9s
+
+2021-09-30 11:28:43 (19.9 KB/s) - 'activehistory.ca/papers/themes' saved [39143]
+
+--2021-09-30 11:28:45--  http://activehistory.ca/papers/beyond-the-lecture-series-list/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/beyond-the-lecture-series-list/index.html'
+
+activehistory.ca/papers/beyon     [      <=>                                         ]  49.28K  21.7KB/s    in 2.3s
+
+2021-09-30 11:28:47 (21.7 KB/s) - 'activehistory.ca/papers/beyond-the-lecture-series-list/index.html' saved [50460]
+
+--2021-09-30 11:28:49--  http://activehistory.ca/papers/canadas-first-world-war-a-centennial-series-on-activehistory-ca/Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/canadas-first-world-war-a-centennial-series-on-activehistory-ca/index.html'
+
+activehistory.ca/papers/canad     [        <=>                                       ]  63.02K  20.2KB/s    in 3.1s
+
+2021-09-30 11:28:53 (20.2 KB/s) - 'activehistory.ca/papers/canadas-first-world-war-a-centennial-series-on-activehistory-ca/index.html' saved [64528]
+
+--2021-09-30 11:28:55--  http://activehistory.ca/papers/indigenous-histories/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/indigenous-histories/index.html'
+
+activehistory.ca/papers/indig     [      <=>                                         ]  44.46K  20.4KB/s    in 2.2s
+
+2021-09-30 11:28:57 (20.4 KB/s) - 'activehistory.ca/papers/indigenous-histories/index.html' saved [45528]
+
+--2021-09-30 11:28:59--  http://activehistory.ca/papers/refugees-in-historical-perspective/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/refugees-in-historical-perspective/index.html'
+
+activehistory.ca/papers/refug     [      <=>                                         ]  40.19K  19.9KB/s    in 2.0s
+
+2021-09-30 11:29:02 (19.9 KB/s) - 'activehistory.ca/papers/refugees-in-historical-perspective/index.html' saved [41159]
+
+--2021-09-30 11:29:04--  http://activehistory.ca/papers/commemorating-35-years-of-the-marathon-of-hope/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/commemorating-35-years-of-the-marathon-of-hope/index.html'
+
+activehistory.ca/papers/comme     [      <=>                                         ]  37.44K  19.8KB/s    in 1.9s
+
+2021-09-30 11:29:06 (19.8 KB/s) - 'activehistory.ca/papers/commemorating-35-years-of-the-marathon-of-hope/index.html' saved [38339]
+
+--2021-09-30 11:29:08--  http://activehistory.ca/papers/theme-week-infectious-disease-contagion-and-the-history-of-vaccines/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/theme-week-infectious-disease-contagion-and-the-history-of-vaccines/index.html'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  40.02K  19.9KB/s    in 2.0s
+
+2021-09-30 11:29:10 (19.9 KB/s) - 'activehistory.ca/papers/theme-week-infectious-disease-contagion-and-the-history-of-vaccines/index.html' saved [40983]
+
+--2021-09-30 11:29:12--  http://activehistory.ca/papers/recognizing-the-historical-thinking-project/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/recognizing-the-historical-thinking-project/index.html'
+
+activehistory.ca/papers/recog     [      <=>                                         ]  45.57K  20.1KB/s    in 2.3s
+
+2021-09-30 11:29:14 (20.1 KB/s) - 'activehistory.ca/papers/recognizing-the-historical-thinking-project/index.html' saved [46664]
+
+--2021-09-30 11:29:16--  http://activehistory.ca/papers/the-royal-proclamation-in-historical-context/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/the-royal-proclamation-in-historical-context/index.html'
+
+activehistory.ca/papers/the-r     [       <=>                                        ]  49.15K  20.3KB/s    in 2.4s
+
+2021-09-30 11:29:19 (20.3 KB/s) - 'activehistory.ca/papers/the-royal-proclamation-in-historical-context/index.html' saved [50325]
+
+--2021-09-30 11:29:21--  http://activehistory.ca/papers/truth-reconciliation-and-the-politics-of-the-body-in-indian-residential-school-history/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/truth-reconciliation-and-the-politics-of-the-body-in-indian-residential-school-history/index.html'
+
+activehistory.ca/papers/truth     [           <=>                                    ]  91.54K  20.7KB/s    in 4.4s
+
+2021-09-30 11:29:26 (20.7 KB/s) - 'activehistory.ca/papers/truth-reconciliation-and-the-politics-of-the-body-in-indian-residential-school-history/index.html' saved [93736]
+
+--2021-09-30 11:29:28--  http://activehistory.ca/papers/the-contemporary-relevance-of-the-historical-treaties-to-treaty-indian-peoples/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/the-contemporary-relevance-of-the-historical-treaties-to-treaty-indian-peoples/index.html'
+
+activehistory.ca/papers/the-c     [         <=>                                      ]  66.44K  20.5KB/s    in 3.2s
+
+2021-09-30 11:29:31 (20.5 KB/s) - 'activehistory.ca/papers/the-contemporary-relevance-of-the-historical-treaties-to-treaty-indian-peoples/index.html' saved [68035]
+
+--2021-09-30 11:29:33--  http://activehistory.ca/papers/disappearing-into-white-space-indigenous-toronto-1900-1914/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/disappearing-into-white-space-indigenous-toronto-1900-1914/index.html'
+
+activehistory.ca/papers/disap     [           <=>                                    ]  85.14K  20.8KB/s    in 4.1s
+
+2021-09-30 11:29:38 (20.8 KB/s) - 'activehistory.ca/papers/disappearing-into-white-space-indigenous-toronto-1900-1914/index.html' saved [87186]
+
+--2021-09-30 11:29:40--  http://activehistory.ca/papers/the-social-democracy-question/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/the-social-democracy-question/index.html'
+
+activehistory.ca/papers/the-s     [         <=>                                      ]  66.09K  21.2KB/s    in 3.1s
+
+2021-09-30 11:29:43 (21.2 KB/s) - 'activehistory.ca/papers/the-social-democracy-question/index.html' saved [67676]
+
+--2021-09-30 11:29:45--  http://activehistory.ca/papers/bodies-of-water-not-bodies-of-women-canadian-media-images-of-the-idle-no-more-movement/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/bodies-of-water-not-bodies-of-women-canadian-media-images-of-the-idle-no-more-movement/index.html'
+
+activehistory.ca/papers/bodie     [            <=>                                   ]  86.78K  19.9KB/s    in 4.4s
+
+2021-09-30 11:29:50 (19.9 KB/s) - 'activehistory.ca/papers/bodies-of-water-not-bodies-of-women-canadian-media-images-of-the-idle-no-more-movement/index.html' saved [88864]
+
+--2021-09-30 11:29:52--  http://activehistory.ca/papers/paper-20/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/paper-20/index.html'
+
+activehistory.ca/papers/paper     [         <=>                                      ]  64.91K  20.0KB/s    in 3.2s
+
+2021-09-30 11:29:56 (20.0 KB/s) - 'activehistory.ca/papers/paper-20/index.html' saved [66470]
+
+--2021-09-30 11:29:58--  http://activehistory.ca/papers/papershistory-papers-19/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/papershistory-papers-19/index.html'
+
+activehistory.ca/papers/paper     [                <=>                               ] 123.63K  19.9KB/s    in 6.2s
+
+2021-09-30 11:30:04 (19.9 KB/s) - 'activehistory.ca/papers/papershistory-papers-19/index.html' saved [126602]
+
+--2021-09-30 11:30:06--  http://activehistory.ca/papers/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/?shared=email&msg=fail [following]
+--2021-09-30 11:30:09--  http://activehistory.ca/papers/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/index.html@share=email'
+
+activehistory.ca/papers/index     [       <=>                                        ]  49.60K  21.8KB/s    in 2.3s
+
+2021-09-30 11:30:11 (21.8 KB/s) - 'activehistory.ca/papers/index.html@share=email' saved [50792]
+
+--2021-09-30 11:30:13--  http://activehistory.ca/papers/themes/constitution/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/themes/constitution: No such file or directory
+activehistory.ca/papers/themes/constitution/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/themes/constitution/index.html' (Bad file descriptor).
+--2021-09-30 11:30:15--  http://activehistory.ca/papers/themes/consumers/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/themes/consumers: No such file or directory
+activehistory.ca/papers/themes/consumers/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/themes/consumers/index.html' (Bad file descriptor).
+--2021-09-30 11:30:18--  http://activehistory.ca/papers/themes/education
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/themes/education/ [following]
+--2021-09-30 11:30:20--  http://activehistory.ca/papers/themes/education/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/education'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  39.51K  19.9KB/s    in 2.0s
+
+2021-09-30 11:30:23 (19.9 KB/s) - 'activehistory.ca/papers/themes/education' saved [40455]
+
+--2021-09-30 11:30:25--  http://activehistory.ca/papers/themes/language/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/language/index.html'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  37.06K  22.2KB/s    in 1.7s
+
+2021-09-30 11:30:27 (22.2 KB/s) - 'activehistory.ca/papers/themes/language/index.html' saved [37952]
+
+--2021-09-30 11:30:29--  http://activehistory.ca/papers/themes/environment/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/environment/index.html'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  36.51K  21.8KB/s    in 1.7s
+
+2021-09-30 11:30:30 (21.8 KB/s) - 'activehistory.ca/papers/themes/environment/index.html' saved [37387]
+
+--2021-09-30 11:30:33--  http://activehistory.ca/papers/themes/gender-sexuality/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/gender-sexuality/index.html'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  37.05K  22.2KB/s    in 1.7s
+
+2021-09-30 11:30:34 (22.2 KB/s) - 'activehistory.ca/papers/themes/gender-sexuality/index.html' saved [37937]
+
+--2021-09-30 11:30:36--  http://activehistory.ca/papers/themes/health/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/health/index.html'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  38.29K  19.5KB/s    in 2.0s
+
+2021-09-30 11:30:39 (19.5 KB/s) - 'activehistory.ca/papers/themes/health/index.html' saved [39210]
+
+--2021-09-30 11:30:41--  http://activehistory.ca/papers/themes/history-in-practice/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/history-in-practice/index.html'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  38.97K  19.7KB/s    in 2.0s
+
+2021-09-30 11:30:43 (19.7 KB/s) - 'activehistory.ca/papers/themes/history-in-practice/index.html' saved [39910]
+
+--2021-09-30 11:30:45--  http://activehistory.ca/papers/themes/immigration-and-nationality/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/immigration-and-nationality/index.html'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  36.80K  21.7KB/s    in 1.7s
+
+2021-09-30 11:30:47 (21.7 KB/s) - 'activehistory.ca/papers/themes/immigration-and-nationality/index.html' saved [37679]
+
+--2021-09-30 11:30:49--  http://activehistory.ca/papers/themes/aboriginal/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/aboriginal/index.html'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  38.15K  19.8KB/s    in 1.9s
+
+2021-09-30 11:30:51 (19.8 KB/s) - 'activehistory.ca/papers/themes/aboriginal/index.html' saved [39065]
+
+--2021-09-30 11:30:53--  http://activehistory.ca/papers/themes/international/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/international/index.html'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  37.42K  19.8KB/s    in 1.9s
+
+2021-09-30 11:30:56 (19.8 KB/s) - 'activehistory.ca/papers/themes/international/index.html' saved [38318]
+
+--2021-09-30 11:30:58--  http://activehistory.ca/papers/themes/culture/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/culture/index.html'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  36.70K  21.7KB/s    in 1.7s
+
+2021-09-30 11:31:00 (21.7 KB/s) - 'activehistory.ca/papers/themes/culture/index.html' saved [37579]
+
+--2021-09-30 11:31:02--  http://activehistory.ca/papers/themes/nationalism-and-regionalism/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/nationalism-and-regionalism/index.html'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  37.46K  19.9KB/s    in 1.9s
+
+2021-09-30 11:31:04 (19.9 KB/s) - 'activehistory.ca/papers/themes/nationalism-and-regionalism/index.html' saved [38360]
+
+--2021-09-30 11:31:06--  http://activehistory.ca/papers/themes/politics-and-parties
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/themes/politics-and-parties/ [following]
+--2021-09-30 11:31:08--  http://activehistory.ca/papers/themes/politics-and-parties/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/politics-and-parties'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  37.29K  19.8KB/s    in 1.9s
+
+2021-09-30 11:31:10 (19.8 KB/s) - 'activehistory.ca/papers/themes/politics-and-parties' saved [38185]
+
+--2021-09-30 11:31:12--  http://activehistory.ca/papers/themes/urban-history-planning-and-local-government/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/urban-history-planning-and-local-government/index.html'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  36.98K  21.8KB/s    in 1.7s
+
+2021-09-30 11:31:14 (21.8 KB/s) - 'activehistory.ca/papers/themes/urban-history-planning-and-local-government/index.html' saved [37865]
+
+--2021-09-30 11:31:16--  http://activehistory.ca/papers/themes/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/?shared=email&msg=fail [following]
+--2021-09-30 11:31:18--  http://activehistory.ca/papers/themes/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  38.39K  20.0KB/s    in 1.9s
+
+2021-09-30 11:31:20 (20.0 KB/s) - 'activehistory.ca/papers/themes/index.html@share=email' saved [39313]
+
+--2021-09-30 11:31:22--  http://activehistory.ca/papers/beyond-the-lecture-series-list/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/beyond-the-lecture-series-list/?shared=email&msg=fail [following]
+--2021-09-30 11:31:25--  http://activehistory.ca/papers/beyond-the-lecture-series-list/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/beyond-the-lecture-series-list/index.html@share=email'
+
+activehistory.ca/papers/beyon     [      <=>                                         ]  49.33K  21.6KB/s    in 2.3s
+
+2021-09-30 11:31:27 (21.6 KB/s) - 'activehistory.ca/papers/beyond-the-lecture-series-list/index.html@share=email' saved [50514]
+
+--2021-09-30 11:31:29--  http://activehistory.ca/papers/canadas-first-world-war-a-centennial-series-on-activehistory-ca/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/canadas-first-world-war-a-centennial-series-on-activehistory-ca/?shared=email&msg=fail [following]
+--2021-09-30 11:31:32--  http://activehistory.ca/papers/canadas-first-world-war-a-centennial-series-on-activehistory-ca/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/canadas-first-world-war-a-centennial-series-on-activehistory-ca/index.html@share=email'
+
+activehistory.ca/papers/canad     [        <=>                                       ]  63.18K  20.1KB/s    in 3.1s
+
+2021-09-30 11:31:35 (20.1 KB/s) - 'activehistory.ca/papers/canadas-first-world-war-a-centennial-series-on-activehistory-ca/index.html@share=email' saved [64698]
+
+--2021-09-30 11:31:37--  http://activehistory.ca/papers/indigenous-histories/%22http://activehistory.ca/2016/01/a-smudgier-dispossession-is-still-dispossession/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/2016/01/a-smudgier-dispossession-is-still-dispossession/ [following]
+--2021-09-30 11:31:39--  http://activehistory.ca/2016/01/a-smudgier-dispossession-is-still-dispossession/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/indigenous-histories/%22http%3A/activehistory.ca/2016/01/a-smudgier-dispossession-is-still-dispossession/index.html'
+
+activehistory.ca/papers/indig     [        <=>                                       ]  62.87K  21.1KB/s    in 3.0s
+
+2021-09-30 11:31:43 (21.1 KB/s) - 'activehistory.ca/papers/indigenous-histories/%22http%3A/activehistory.ca/2016/01/a-smudgier-dispossession-is-still-dispossession/index.html' saved [64382]
+
+--2021-09-30 11:31:45--  http://activehistory.ca/papers/indigenous-histories/%22http://activehistory.ca/2016/01/political-depression-in-a-time-of-reconciliation/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/2016/01/political-depression-in-a-time-of-reconciliation/ [following]
+--2021-09-30 11:31:47--  http://activehistory.ca/2016/01/political-depression-in-a-time-of-reconciliation/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/indigenous-histories/%22http%3A/activehistory.ca/2016/01/political-depression-in-a-time-of-reconciliation/index.html'
+
+activehistory.ca/papers/indig     [        <=>                                       ]  62.82K  21.1KB/s    in 3.0s
+
+2021-09-30 11:31:50 (21.1 KB/s) - 'activehistory.ca/papers/indigenous-histories/%22http%3A/activehistory.ca/2016/01/political-depression-in-a-time-of-reconciliation/index.html' saved [64329]
+
+--2021-09-30 11:31:52--  http://activehistory.ca/papers/indigenous-histories/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2021-09-30 11:31:53--  (try: 2)  http://activehistory.ca/papers/indigenous-histories/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/indigenous-histories/?shared=email&msg=fail [following]
+--2021-09-30 11:31:56--  http://activehistory.ca/papers/indigenous-histories/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/indigenous-histories/index.html@share=email'
+
+activehistory.ca/papers/indig     [      <=>                                         ]  44.63K  20.5KB/s    in 2.2s
+
+2021-09-30 11:31:58 (20.5 KB/s) - 'activehistory.ca/papers/indigenous-histories/index.html@share=email' saved [45698]
+
+--2021-09-30 11:32:00--  http://activehistory.ca/papers/refugees-in-historical-perspective/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/refugees-in-historical-perspective/?shared=email&msg=fail [following]
+--2021-09-30 11:32:02--  http://activehistory.ca/papers/refugees-in-historical-perspective/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/refugees-in-historical-perspective/index.html@share=email'
+
+activehistory.ca/papers/refug     [      <=>                                         ]  40.36K  19.8KB/s    in 2.0s
+
+2021-09-30 11:32:05 (19.8 KB/s) - 'activehistory.ca/papers/refugees-in-historical-perspective/index.html@share=email' saved [41329]
+
+--2021-09-30 11:32:07--  http://activehistory.ca/papers/commemorating-35-years-of-the-marathon-of-hope/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/commemorating-35-years-of-the-marathon-of-hope/?shared=email&msg=fail [following]
+--2021-09-30 11:32:09--  http://activehistory.ca/papers/commemorating-35-years-of-the-marathon-of-hope/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/commemorating-35-years-of-the-marathon-of-hope/index.html@share=email'
+
+activehistory.ca/papers/comme     [      <=>                                         ]  37.61K  19.9KB/s    in 1.9s
+
+2021-09-30 11:32:11 (19.9 KB/s) - 'activehistory.ca/papers/commemorating-35-years-of-the-marathon-of-hope/index.html@share=email' saved [38509]
+
+--2021-09-30 11:32:13--  http://activehistory.ca/papers/theme-week-infectious-disease-contagion-and-the-history-of-vaccines/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/theme-week-infectious-disease-contagion-and-the-history-of-vaccines/?shared=email&msg=fail [following]
+--2021-09-30 11:32:15--  http://activehistory.ca/papers/theme-week-infectious-disease-contagion-and-the-history-of-vaccines/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/theme-week-infectious-disease-contagion-and-the-history-of-vaccines/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  40.19K  20.0KB/s    in 2.0s
+
+2021-09-30 11:32:18 (20.0 KB/s) - 'activehistory.ca/papers/theme-week-infectious-disease-contagion-and-the-history-of-vaccines/index.html@share=email' saved [41153]
+
+--2021-09-30 11:32:20--  http://activehistory.ca/papers/recognizing-the-historical-thinking-project/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/recognizing-the-historical-thinking-project/?shared=email&msg=fail [following]
+--2021-09-30 11:32:22--  http://activehistory.ca/papers/recognizing-the-historical-thinking-project/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/recognizing-the-historical-thinking-project/index.html@share=email'
+
+activehistory.ca/papers/recog     [      <=>                                         ]  45.74K  19.9KB/s    in 2.3s
+
+2021-09-30 11:32:24 (19.9 KB/s) - 'activehistory.ca/papers/recognizing-the-historical-thinking-project/index.html@share=email' saved [46834]
+
+--2021-09-30 11:32:26--  http://activehistory.ca/papers/the-royal-proclamation-in-historical-context/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/the-royal-proclamation-in-historical-context/?shared=email&msg=fail [following]--2021-09-30 11:32:29--  http://activehistory.ca/papers/the-royal-proclamation-in-historical-context/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/the-royal-proclamation-in-historical-context/index.html@share=email'
+
+activehistory.ca/papers/the-r     [       <=>                                        ]  49.31K  20.4KB/s    in 2.4s
+
+2021-09-30 11:32:31 (20.4 KB/s) - 'activehistory.ca/papers/the-royal-proclamation-in-historical-context/index.html@share=email' saved [50495]
+
+--2021-09-30 11:32:33--  http://activehistory.ca/papers/truth-reconciliation-and-the-politics-of-the-body-in-indian-residential-school-history/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/truth-reconciliation-and-the-politics-of-the-body-in-indian-residential-school-history/?shared=email&msg=fail [following]
+--2021-09-30 11:32:36--  http://activehistory.ca/papers/truth-reconciliation-and-the-politics-of-the-body-in-indian-residential-school-history/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/truth-reconciliation-and-the-politics-of-the-body-in-indian-residential-school-history/index.html@share=email'
+
+activehistory.ca/papers/truth     [           <=>                                    ]  91.71K  20.1KB/s    in 4.6s
+
+2021-09-30 11:32:41 (20.1 KB/s) - 'activehistory.ca/papers/truth-reconciliation-and-the-politics-of-the-body-in-indian-residential-school-history/index.html@share=email' saved [93906]
+
+--2021-09-30 11:32:43--  http://activehistory.ca/papers/the-contemporary-relevance-of-the-historical-treaties-to-treaty-indian-peoples/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/the-contemporary-relevance-of-the-historical-treaties-to-treaty-indian-peoples/?shared=email&msg=fail [following]
+--2021-09-30 11:32:45--  http://activehistory.ca/papers/the-contemporary-relevance-of-the-historical-treaties-to-treaty-indian-peoples/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/the-contemporary-relevance-of-the-historical-treaties-to-treaty-indian-peoples/index.html@share=email'
+
+activehistory.ca/papers/the-c     [         <=>                                      ]  66.61K  20.5KB/s    in 3.2s
+
+2021-09-30 11:32:49 (20.5 KB/s) - 'activehistory.ca/papers/the-contemporary-relevance-of-the-historical-treaties-to-treaty-indian-peoples/index.html@share=email' saved [68205]
+
+--2021-09-30 11:32:51--  http://activehistory.ca/papers/disappearing-into-white-space-indigenous-toronto-1900-1914/%C3%A2%E2%82%AC%C5%93
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:32:51 ERROR 404: Not Found.
+
+--2021-09-30 11:32:53--  http://activehistory.ca/papers/disappearing-into-white-space-indigenous-toronto-1900-1914/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/disappearing-into-white-space-indigenous-toronto-1900-1914/?shared=email&msg=fail [following]
+--2021-09-30 11:32:55--  http://activehistory.ca/papers/disappearing-into-white-space-indigenous-toronto-1900-1914/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/disappearing-into-white-space-indigenous-toronto-1900-1914/index.html@share=email'
+
+activehistory.ca/papers/disap     [           <=>                                    ]  85.31K  20.8KB/s    in 4.1s
+
+2021-09-30 11:33:00 (20.8 KB/s) - 'activehistory.ca/papers/disappearing-into-white-space-indigenous-toronto-1900-1914/index.html@share=email' saved [87356]
+
+--2021-09-30 11:33:02--  http://activehistory.ca/papers/the-social-democracy-question/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/the-social-democracy-question/?shared=email&msg=fail [following]
+--2021-09-30 11:33:04--  http://activehistory.ca/papers/the-social-democracy-question/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/the-social-democracy-question/index.html@share=email'
+
+activehistory.ca/papers/the-s     [         <=>                                      ]  66.26K  21.2KB/s    in 3.1s
+
+2021-09-30 11:33:07 (21.2 KB/s) - 'activehistory.ca/papers/the-social-democracy-question/index.html@share=email' saved [67846]
+
+--2021-09-30 11:33:09--  http://activehistory.ca/papers/bodies-of-water-not-bodies-of-women-canadian-media-images-of-the-idle-no-more-movement/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/bodies-of-water-not-bodies-of-women-canadian-media-images-of-the-idle-no-more-movement/?shared=email&msg=fail [following]
+--2021-09-30 11:33:12--  http://activehistory.ca/papers/bodies-of-water-not-bodies-of-women-canadian-media-images-of-the-idle-no-more-movement/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/bodies-of-water-not-bodies-of-women-canadian-media-images-of-the-idle-no-more-movement/index.html@share=email'
+
+activehistory.ca/papers/bodie     [            <=>                                   ]  86.95K  19.9KB/s    in 4.4s
+
+2021-09-30 11:33:16 (19.9 KB/s) - 'activehistory.ca/papers/bodies-of-water-not-bodies-of-women-canadian-media-images-of-the-idle-no-more-movement/index.html@share=email' saved [89034]
+
+--2021-09-30 11:33:18--  http://activehistory.ca/papers/paper-20/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/paper-20/?shared=email&msg=fail [following]
+--2021-09-30 11:33:21--  http://activehistory.ca/papers/paper-20/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/paper-20/index.html@share=email'
+
+activehistory.ca/papers/paper     [         <=>                                      ]  65.08K  20.0KB/s    in 3.3s
+
+2021-09-30 11:33:24 (20.0 KB/s) - 'activehistory.ca/papers/paper-20/index.html@share=email' saved [66640]
+
+--2021-09-30 11:33:26--  http://activehistory.ca/papers/papershistory-papers-19/Figure%20Four
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:33:27 ERROR 404: Not Found.
+
+--2021-09-30 11:33:29--  http://activehistory.ca/papers/papershistory-papers-19/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/papershistory-papers-19/?shared=email&msg=fail [following]
+--2021-09-30 11:33:31--  http://activehistory.ca/papers/papershistory-papers-19/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/papershistory-papers-19/index.html@share=email'
+
+activehistory.ca/papers/paper     [                <=>                               ] 123.80K  20.0KB/s    in 6.2s
+
+2021-09-30 11:33:37 (20.0 KB/s) - 'activehistory.ca/papers/papershistory-papers-19/index.html@share=email' saved [126772]
+
+--2021-09-30 11:33:39--  http://activehistory.ca/papers/history-papers-15/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-15/index.html'
+
+activehistory.ca/papers/histo     [           <=>                                    ]  87.15K  20.6KB/s    in 4.2s
+
+2021-09-30 11:33:44 (20.6 KB/s) - 'activehistory.ca/papers/history-papers-15/index.html' saved [89245]
+
+--2021-09-30 11:33:46--  http://activehistory.ca/papers/history-papers-11
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/history-papers-11/ [following]
+--2021-09-30 11:33:48--  http://activehistory.ca/papers/history-papers-11/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-11'
+
+activehistory.ca/papers/histo     [          <=>                                     ]  74.81K  20.7KB/s    in 3.6s
+
+2021-09-30 11:33:52 (20.7 KB/s) - 'activehistory.ca/papers/history-papers-11' saved [76608]
+
+--2021-09-30 11:33:54--  http://activehistory.ca/papers/history-paper-5/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-5/index.html'
+
+activehistory.ca/papers/histo     [             <=>                                  ] 105.09K  20.6KB/s    in 5.1s
+
+2021-09-30 11:34:00 (20.6 KB/s) - 'activehistory.ca/papers/history-paper-5/index.html' saved [107614]
+
+--2021-09-30 11:34:02--  http://activehistory.ca/papers/themes/education/.http://activehistory.ca/papers/historypaper-8/Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/historypaper-8/ [following]
+--2021-09-30 11:34:04--  http://activehistory.ca/papers/historypaper-8/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/themes/education/.http%3A/activehistory.ca/papers/historypaper-8: No such file or directory
+activehistory.ca/papers/themes/education/.http%3A/activehistory.ca/papers/historypaper-8/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/themes/education/.http%3A/activehistory.ca/papers/historypaper-8/index.html' (Bad file descriptor).
+--2021-09-30 11:34:06--  http://activehistory.ca/papers/themes/papers/what-can-oral-history-teach-us/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/what-can-oral-history-teach-us/ [following]
+--2021-09-30 11:34:08--  http://activehistory.ca/papers/what-can-oral-history-teach-us/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/papers/what-can-oral-history-teach-us/index.html'
+
+activehistory.ca/papers/theme     [              <=>                                 ] 108.17K  20.5KB/s    in 5.3s
+
+2021-09-30 11:34:14 (20.5 KB/s) - 'activehistory.ca/papers/themes/papers/what-can-oral-history-teach-us/index.html' saved [110761]
+
+--2021-09-30 11:34:16--  http://activehistory.ca/papers/history-papers-13/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-13/index.html'
+
+activehistory.ca/papers/histo     [         <=>                                      ]  62.80K  19.9KB/s    in 3.2s
+
+2021-09-30 11:34:20 (19.9 KB/s) - 'activehistory.ca/papers/history-papers-13/index.html' saved [64306]
+
+--2021-09-30 11:34:22--  http://activehistory.ca/papers/themes/education/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/education/?shared=email&msg=fail [following]
+--2021-09-30 11:34:24--  http://activehistory.ca/papers/themes/education/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/education/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  39.67K  20.0KB/s    in 2.0s
+
+2021-09-30 11:34:26 (20.0 KB/s) - 'activehistory.ca/papers/themes/education/index.html@share=email' saved [40625]
+
+--2021-09-30 11:34:28--  http://activehistory.ca/papers/papershistory-papers-17/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/papershistory-papers-17/index.html'
+
+activehistory.ca/papers/paper     [         <=>                                      ]  63.50K  20.5KB/s    in 3.1s
+
+2021-09-30 11:34:31 (20.5 KB/s) - 'activehistory.ca/papers/papershistory-papers-17/index.html' saved [65020]
+
+--2021-09-30 11:34:33--  http://activehistory.ca/papers/themes/papers/historypaper-9/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/historypaper-9/ [following]
+--2021-09-30 11:34:36--  http://activehistory.ca/papers/historypaper-9/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/papers/historypaper-9/index.html'
+
+activehistory.ca/papers/theme     [       <=>                                        ]  53.25K  20.4KB/s    in 2.6s
+
+2021-09-30 11:34:39 (20.4 KB/s) - 'activehistory.ca/papers/themes/papers/historypaper-9/index.html' saved [54527]
+
+--2021-09-30 11:34:41--  http://activehistory.ca/papers/themes/language/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/language/?shared=email&msg=fail [following]
+--2021-09-30 11:34:43--  http://activehistory.ca/papers/themes/language/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/language/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  37.23K  19.9KB/s    in 1.9s
+
+2021-09-30 11:34:45 (19.9 KB/s) - 'activehistory.ca/papers/themes/language/index.html@share=email' saved [38122]
+
+--2021-09-30 11:34:47--  http://activehistory.ca/papers/themes/papers/history-paper-6/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/history-paper-6/ [following]
+--2021-09-30 11:34:49--  http://activehistory.ca/papers/history-paper-6/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/papers/history-paper-6/index.html'
+
+activehistory.ca/papers/theme     [         <=>                                      ]  64.60K  20.8KB/s    in 3.1s
+
+2021-09-30 11:34:53 (20.8 KB/s) - 'activehistory.ca/papers/themes/papers/history-paper-6/index.html' saved [66146]
+
+--2021-09-30 11:34:55--  http://activehistory.ca/papers/themes/environment/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/environment/?shared=email&msg=fail [following]
+--2021-09-30 11:34:57--  http://activehistory.ca/papers/themes/environment/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/environment/index.html@share=email'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  36.68K  21.9KB/s    in 1.7s
+
+2021-09-30 11:34:59 (21.9 KB/s) - 'activehistory.ca/papers/themes/environment/index.html@share=email' saved [37557]
+
+--2021-09-30 11:35:01--  http://activehistory.ca/papers/history-papers-14/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-14/index.html'
+
+activehistory.ca/papers/histo     [            <=>                                   ]  89.97K  20.7KB/s    in 4.4s
+
+2021-09-30 11:35:05 (20.7 KB/s) - 'activehistory.ca/papers/history-papers-14/index.html' saved [92128]
+
+--2021-09-30 11:35:07--  http://activehistory.ca/papers/themes/gender-sexuality/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/gender-sexuality/?shared=email&msg=fail [following]
+--2021-09-30 11:35:10--  http://activehistory.ca/papers/themes/gender-sexuality/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/gender-sexuality/index.html@share=email'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  37.21K  22.3KB/s    in 1.7s
+
+2021-09-30 11:35:12 (22.3 KB/s) - 'activehistory.ca/papers/themes/gender-sexuality/index.html@share=email' saved [38107]
+--2021-09-30 11:35:14--  http://activehistory.ca/papers/history-papers-16/%20
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/history-papers-16/ [following]
+--2021-09-30 11:35:16--  http://activehistory.ca/papers/history-papers-16/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/history-papers-16/ : Permission denied
+
+Cannot write to 'activehistory.ca/papers/history-papers-16/ ' (Bad file descriptor).
+--2021-09-30 11:35:18--  http://activehistory.ca/papers/historypaper-10/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/historypaper-10/index.html'
+
+activehistory.ca/papers/histo     [              <=>                                 ] 109.74K  20.1KB/s    in 5.5s
+
+2021-09-30 11:35:24 (20.1 KB/s) - 'activehistory.ca/papers/historypaper-10/index.html' saved [112371]
+
+--2021-09-30 11:35:26--  http://activehistory.ca/papers/themes/health/The%20Canadian%20Centre%20for%20Bioethical%20Reform%20Campus%20Genocide%20Awareness%20Project%20as%20Propaganda%20for%20Fetal%20Rights
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:35:27 ERROR 404: Not Found.
+
+--2021-09-30 11:35:29--  http://activehistory.ca/papers/themes/health/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/health/?shared=email&msg=fail [following]
+--2021-09-30 11:35:31--  http://activehistory.ca/papers/themes/health/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/health/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  38.46K  19.9KB/s    in 1.9s
+
+2021-09-30 11:35:33 (19.9 KB/s) - 'activehistory.ca/papers/themes/health/index.html@share=email' saved [39380]
+
+--2021-09-30 11:35:35--  http://activehistory.ca/papers/themes/papers/roundtable/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/roundtable/ [following]
+--2021-09-30 11:35:37--  http://activehistory.ca/papers/roundtable/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/papers/roundtable/index.html'
+
+activehistory.ca/papers/theme     [        <=>                                       ]  56.92K  20.6KB/s    in 2.8s
+
+2021-09-30 11:35:40 (20.6 KB/s) - 'activehistory.ca/papers/themes/papers/roundtable/index.html' saved [58286]
+
+--2021-09-30 11:35:42--  http://activehistory.ca/papers/the-home-archivist/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/the-home-archivist/index.html'
+
+activehistory.ca/papers/the-h     [     <=>                                          ]  37.32K  22.2KB/s    in 1.7s
+
+2021-09-30 11:35:44 (22.2 KB/s) - 'activehistory.ca/papers/the-home-archivist/index.html' saved [38217]
+
+--2021-09-30 11:35:46--  http://activehistory.ca/papers/themes/history-in-practice/.http://activehistory.ca/papers/historypaper-8/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/historypaper-8/ [following]
+--2021-09-30 11:35:48--  http://activehistory.ca/papers/historypaper-8/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/history-in-practice/.http%3A/activehistory.ca/papers/historypaper-8/index.html'
+
+activehistory.ca/papers/theme     [         <=>                                      ]  68.29K  20.8KB/s    in 3.3s
+
+2021-09-30 11:35:52 (20.8 KB/s) - 'activehistory.ca/papers/themes/history-in-practice/.http%3A/activehistory.ca/papers/historypaper-8/index.html' saved [69929]
+
+--2021-09-30 11:35:54--  http://activehistory.ca/papers/themes/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/ [following]
+--2021-09-30 11:35:56--  http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/index.html'
+
+activehistory.ca/papers/theme     [          <=>                                     ]  77.09K  20.5KB/s    in 3.8s
+
+2021-09-30 11:36:00 (20.5 KB/s) - 'activehistory.ca/papers/themes/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/index.html' saved [78941]
+
+--2021-09-30 11:36:02--  http://activehistory.ca/papers/themes/history-in-practice/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/history-in-practice/?shared=email&msg=fail [following]
+--2021-09-30 11:36:04--  http://activehistory.ca/papers/themes/history-in-practice/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/history-in-practice/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  39.14K  19.9KB/s    in 2.0s
+
+2021-09-30 11:36:06 (19.9 KB/s) - 'activehistory.ca/papers/themes/history-in-practice/index.html@share=email' saved [40080]
+
+--2021-09-30 11:36:09--  http://activehistory.ca/papers/history-papers-12/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-12/index.html'
+
+activehistory.ca/papers/histo     [              <=>                                 ] 108.86K  20.3KB/s    in 5.4s
+
+2021-09-30 11:36:14 (20.3 KB/s) - 'activehistory.ca/papers/history-papers-12/index.html' saved [111475]
+
+--2021-09-30 11:36:16--  http://activehistory.ca/papers/themes/immigration-and-nationality/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/immigration-and-nationality/?shared=email&msg=fail [following]
+--2021-09-30 11:36:18--  http://activehistory.ca/papers/themes/immigration-and-nationality/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/immigration-and-nationality/index.html@share=email'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  36.96K  22.0KB/s    in 1.7s
+
+2021-09-30 11:36:20 (22.0 KB/s) - 'activehistory.ca/papers/themes/immigration-and-nationality/index.html@share=email' saved [37849]
+
+--2021-09-30 11:36:22--  http://activehistory.ca/papers/anishinaabeg-in-the-war-of-1812/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/anishinaabeg-in-the-war-of-1812/index.html'
+
+activehistory.ca/papers/anish     [      <=>                                         ]  37.85K  19.8KB/s    in 1.9s
+
+2021-09-30 11:36:24 (19.8 KB/s) - 'activehistory.ca/papers/anishinaabeg-in-the-war-of-1812/index.html' saved [38754]
+
+--2021-09-30 11:36:26--  http://activehistory.ca/papers/themes/aboriginal/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/aboriginal/?shared=email&msg=fail [following]
+--2021-09-30 11:36:29--  http://activehistory.ca/papers/themes/aboriginal/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/aboriginal/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  38.32K  19.9KB/s    in 1.9s
+
+2021-09-30 11:36:31 (19.9 KB/s) - 'activehistory.ca/papers/themes/aboriginal/index.html@share=email' saved [39235]
+
+--2021-09-30 11:36:33--  http://activehistory.ca/papers/history-paper-2
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/history-paper-2/ [following]
+--2021-09-30 11:36:35--  http://activehistory.ca/papers/history-paper-2/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-2'
+
+activehistory.ca/papers/histo     [           <=>                                    ]  81.52K  19.9KB/s    in 4.1s
+
+2021-09-30 11:36:40 (19.9 KB/s) - 'activehistory.ca/papers/history-paper-2' saved [83472]
+
+--2021-09-30 11:36:42--  http://activehistory.ca/papers/history-paper-1/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-1/index.html'
+
+activehistory.ca/papers/histo     [        <=>                                       ]  61.23K  20.5KB/s    in 3.0s
+
+2021-09-30 11:36:45 (20.5 KB/s) - 'activehistory.ca/papers/history-paper-1/index.html' saved [62699]
+
+--2021-09-30 11:36:47--  http://activehistory.ca/papers/themes/papers/history-paper-4/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2021-09-30 11:36:48--  (try: 2)  http://activehistory.ca/papers/themes/papers/history-paper-4/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/history-paper-4/ [following]
+--2021-09-30 11:36:50--  http://activehistory.ca/papers/history-paper-4/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/papers/history-paper-4/index.html'
+
+activehistory.ca/papers/theme     [        <=>                                       ]  57.26K  20.5KB/s    in 2.8s
+
+2021-09-30 11:36:53 (20.5 KB/s) - 'activehistory.ca/papers/themes/papers/history-paper-4/index.html' saved [58630]
+
+--2021-09-30 11:36:55--  http://activehistory.ca/papers/themes/papers/themes/international/vietnam-et-cuba
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/themes/international/vietnam-et-cuba/ [following]
+--2021-09-30 11:36:58--  http://activehistory.ca/papers/themes/international/vietnam-et-cuba/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/papers/themes/international/vietnam-et-cuba'
+
+activehistory.ca/papers/theme     [        <=>                                       ]  59.49K  20.5KB/s    in 2.9s
+
+2021-09-30 11:37:01 (20.5 KB/s) - 'activehistory.ca/papers/themes/papers/themes/international/vietnam-et-cuba' saved [60913]
+
+--2021-09-30 11:37:03--  http://activehistory.ca/papers/history-paper-3
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/history-paper-3/ [following]
+--2021-09-30 11:37:05--  http://activehistory.ca/papers/history-paper-3/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-3'
+
+activehistory.ca/papers/histo     [             <=>                                  ]  97.38K  19.9KB/s    in 4.9s
+
+2021-09-30 11:37:10 (19.9 KB/s) - 'activehistory.ca/papers/history-paper-3' saved [99721]
+
+--2021-09-30 11:37:12--  http://activehistory.ca/papers/themes/international/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/international/?shared=email&msg=fail [following]
+--2021-09-30 11:37:14--  http://activehistory.ca/papers/themes/international/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/international/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  37.59K  19.9KB/s    in 1.9s
+
+2021-09-30 11:37:17 (19.9 KB/s) - 'activehistory.ca/papers/themes/international/index.html@share=email' saved [38488]
+
+--2021-09-30 11:37:19--  http://activehistory.ca/papers/themes/culture/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/culture/?shared=email&msg=fail [following]
+--2021-09-30 11:37:21--  http://activehistory.ca/papers/themes/culture/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/culture/index.html@share=email'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  36.86K  21.7KB/s    in 1.7s
+
+2021-09-30 11:37:23 (21.7 KB/s) - 'activehistory.ca/papers/themes/culture/index.html@share=email' saved [37749]
+
+--2021-09-30 11:37:25--  http://activehistory.ca/papers/themes/nationalism-and-regionalism/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/nationalism-and-regionalism/?shared=email&msg=fail [following]
+--2021-09-30 11:37:27--  http://activehistory.ca/papers/themes/nationalism-and-regionalism/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/nationalism-and-regionalism/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  37.63K  19.9KB/s    in 1.9s
+
+2021-09-30 11:37:29 (19.9 KB/s) - 'activehistory.ca/papers/themes/nationalism-and-regionalism/index.html@share=email' saved [38530]
+
+--2021-09-30 11:37:31--  http://activehistory.ca/papers/200-years-of-the-old-chieftain/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/200-years-of-the-old-chieftain/index.html'
+
+activehistory.ca/papers/200-y     [      <=>                                         ]  37.65K  19.8KB/s    in 1.9s
+
+2021-09-30 11:37:33 (19.8 KB/s) - 'activehistory.ca/papers/200-years-of-the-old-chieftain/index.html' saved [38549]
+
+--2021-09-30 11:37:35--  http://activehistory.ca/papers/themes/politics-and-parties/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/politics-and-parties/?shared=email&msg=fail [following]
+--2021-09-30 11:37:38--  http://activehistory.ca/papers/themes/politics-and-parties/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/politics-and-parties/index.html@share=email'
+
+activehistory.ca/papers/theme     [      <=>                                         ]  37.46K  19.9KB/s    in 1.9s
+
+2021-09-30 11:37:40 (19.9 KB/s) - 'activehistory.ca/papers/themes/politics-and-parties/index.html@share=email' saved [38355]
+
+--2021-09-30 11:37:42--  http://activehistory.ca/papers/themes/urban-history-planning-and-local-government/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/urban-history-planning-and-local-government/?shared=email&msg=fail [following]
+--2021-09-30 11:37:44--  http://activehistory.ca/papers/themes/urban-history-planning-and-local-government/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/urban-history-planning-and-local-government/index.html@share=email'
+
+activehistory.ca/papers/theme     [     <=>                                          ]  37.14K  22.0KB/s    in 1.7s
+
+2021-09-30 11:37:46 (22.0 KB/s) - 'activehistory.ca/papers/themes/urban-history-planning-and-local-government/index.html@share=email' saved [38035]
+
+--2021-09-30 11:37:48--  http://activehistory.ca/papers/history-papers-15/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-papers-15/?shared=email&msg=fail [following]
+--2021-09-30 11:37:50--  http://activehistory.ca/papers/history-papers-15/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-15/index.html@share=email'
+
+activehistory.ca/papers/histo     [           <=>                                    ]  87.32K  20.6KB/s    in 4.2s
+
+2021-09-30 11:37:54 (20.6 KB/s) - 'activehistory.ca/papers/history-papers-15/index.html@share=email' saved [89415]
+
+--2021-09-30 11:37:57--  http://activehistory.ca/papers/history-papers-11/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-papers-11/?shared=email&msg=fail [following]
+--2021-09-30 11:37:59--  http://activehistory.ca/papers/history-papers-11/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-11/index.html@share=email'
+
+activehistory.ca/papers/histo     [          <=>                                     ]  74.98K  20.8KB/s    in 3.6s
+
+2021-09-30 11:38:03 (20.8 KB/s) - 'activehistory.ca/papers/history-papers-11/index.html@share=email' saved [76778]
+
+--2021-09-30 11:38:05--  http://activehistory.ca/papers/history-paper-5/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-paper-5/?shared=email&msg=fail [following]
+--2021-09-30 11:38:07--  http://activehistory.ca/papers/history-paper-5/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-5/index.html@share=email'
+
+activehistory.ca/papers/histo     [             <=>                                  ] 105.26K  20.4KB/s    in 5.2s
+
+2021-09-30 11:38:13 (20.4 KB/s) - 'activehistory.ca/papers/history-paper-5/index.html@share=email' saved [107784]
+
+--2021-09-30 11:38:15--  http://activehistory.ca/papers/history-papers-13/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-papers-13/?shared=email&msg=fail [following]
+--2021-09-30 11:38:17--  http://activehistory.ca/papers/history-papers-13/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-13/index.html@share=email'
+
+activehistory.ca/papers/histo     [         <=>                                      ]  62.96K  20.0KB/s    in 3.2s
+
+2021-09-30 11:38:20 (20.0 KB/s) - 'activehistory.ca/papers/history-papers-13/index.html@share=email' saved [64476]
+
+--2021-09-30 11:38:22--  http://activehistory.ca/papers/papershistory-papers-17/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/papershistory-papers-17/?shared=email&msg=fail [following]
+--2021-09-30 11:38:25--  http://activehistory.ca/papers/papershistory-papers-17/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/papershistory-papers-17/index.html@share=email'
+
+activehistory.ca/papers/paper     [         <=>                                      ]  63.66K  20.5KB/s    in 3.1s
+
+2021-09-30 11:38:28 (20.5 KB/s) - 'activehistory.ca/papers/papershistory-papers-17/index.html@share=email' saved [65190]
+--2021-09-30 11:38:30--  http://activehistory.ca/papers/historypaper-9/%C3%A2%E2%82%AC%C5%93http://pamplemoose.blogspot.com/2011/01/adventures-in-copyright-plea-for.html%C3%A2%E2%82%AC%C2%9Dblog%3C/a
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/2014/05/a-berks-retrospective-feminist-mentorship-and-inequality-in-the-ivory-tower/ [following]
+--2021-09-30 11:38:32--  http://activehistory.ca/2014/05/a-berks-retrospective-feminist-mentorship-and-inequality-in-the-ivory-tower/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/historypaper-9/â\200ohttp%3A/pamplemoose.blogspot.com/2011/01/adventures-in-copyright-plea-for.htmlâ\200\235blog%3C/a'
+
+activehistory.ca/papers/histo     [      <=>                                         ]  44.67K  20.1KB/s    in 2.2s
+
+2021-09-30 11:38:35 (20.1 KB/s) - 'activehistory.ca/papers/historypaper-9/â\200ohttp%3A/pamplemoose.blogspot.com/2011/01/adventures-in-copyright-plea-for.htmlâ\200\235blog%3C/a' saved [45743]
+
+--2021-09-30 11:38:37--  http://activehistory.ca/papers/historypaper-9/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/historypaper-9/?shared=email&msg=fail [following]
+--2021-09-30 11:38:39--  http://activehistory.ca/papers/historypaper-9/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/historypaper-9/index.html@share=email'
+
+activehistory.ca/papers/histo     [       <=>                                        ]  53.42K  20.4KB/s    in 2.6s
+
+2021-09-30 11:38:42 (20.4 KB/s) - 'activehistory.ca/papers/historypaper-9/index.html@share=email' saved [54697]
+
+--2021-09-30 11:38:44--  http://activehistory.ca/papers/history-paper-6/j.mouhot@bham.ac.uk
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:38:44 ERROR 404: Not Found.
+
+--2021-09-30 11:38:46--  http://activehistory.ca/papers/history-paper-6/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-paper-6/?shared=email&msg=fail [following]
+--2021-09-30 11:38:48--  http://activehistory.ca/papers/history-paper-6/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-6/index.html@share=email'
+
+activehistory.ca/papers/histo     [         <=>                                      ]  64.76K  20.7KB/s    in 3.1s
+
+2021-09-30 11:38:52 (20.7 KB/s) - 'activehistory.ca/papers/history-paper-6/index.html@share=email' saved [66316]
+
+--2021-09-30 11:38:54--  http://activehistory.ca/papers/history-papers-14/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-papers-14/?shared=email&msg=fail [following]
+--2021-09-30 11:38:56--  http://activehistory.ca/papers/history-papers-14/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-14/index.html@share=email'
+
+activehistory.ca/papers/histo     [            <=>                                   ]  90.13K  20.6KB/s    in 4.4s
+
+2021-09-30 11:39:01 (20.6 KB/s) - 'activehistory.ca/papers/history-papers-14/index.html@share=email' saved [92298]
+
+--2021-09-30 11:39:03--  http://activehistory.ca/papers/historypaper-10/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/historypaper-10/?shared=email&msg=fail [following]
+--2021-09-30 11:39:05--  http://activehistory.ca/papers/historypaper-10/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/historypaper-10/index.html@share=email'
+
+activehistory.ca/papers/histo     [              <=>                                 ] 109.90K  20.2KB/s    in 5.4s
+
+2021-09-30 11:39:11 (20.2 KB/s) - 'activehistory.ca/papers/historypaper-10/index.html@share=email' saved [112541]
+
+--2021-09-30 11:39:13--  http://activehistory.ca/papers/roundtable/%22
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/roundtable/ [following]
+--2021-09-30 11:39:15--  http://activehistory.ca/papers/roundtable/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/roundtable/%22'
+
+activehistory.ca/papers/round     [        <=>                                       ]  56.92K  20.5KB/s    in 2.8s
+
+2021-09-30 11:39:18 (20.5 KB/s) - 'activehistory.ca/papers/roundtable/%22' saved [58286]
+
+--2021-09-30 11:39:20--  http://activehistory.ca/papers/pbaskerville/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/pbaskerville/index.html'
+
+activehistory.ca/papers/pbask     [       <=>                                        ]  50.80K  20.6KB/s    in 2.5s
+
+2021-09-30 11:39:23 (20.6 KB/s) - 'activehistory.ca/papers/pbaskerville/index.html' saved [52024]
+
+--2021-09-30 11:39:25--  http://activehistory.ca/papers/ldick/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/ldick/index.html'
+
+activehistory.ca/papers/ldick     [       <=>                                        ]  53.48K  20.4KB/s    in 2.6s
+
+2021-09-30 11:39:28 (20.4 KB/s) - 'activehistory.ca/papers/ldick/index.html' saved [54760]
+
+--2021-09-30 11:39:30--  http://activehistory.ca/papers/aperr/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/aperr/index.html'
+
+activehistory.ca/papers/aperr     [       <=>                                        ]  51.78K  20.7KB/s    in 2.5s
+
+2021-09-30 11:39:33 (20.7 KB/s) - 'activehistory.ca/papers/aperr/index.html' saved [53018]
+
+--2021-09-30 11:39:35--  http://activehistory.ca/papers/rsandwell/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/rsandwell/index.html'
+
+activehistory.ca/papers/rsand     [       <=>                                        ]  51.65K  20.8KB/s    in 2.5s
+
+2021-09-30 11:39:37 (20.8 KB/s) - 'activehistory.ca/papers/rsandwell/index.html' saved [52890]
+
+--2021-09-30 11:39:39--  http://activehistory.ca/papers/roundtable/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/roundtable/?shared=email&msg=fail [following]
+--2021-09-30 11:39:42--  http://activehistory.ca/papers/roundtable/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/roundtable/index.html@share=email'
+
+activehistory.ca/papers/round     [        <=>                                       ]  57.09K  20.4KB/s    in 2.8s
+
+2021-09-30 11:39:45 (20.4 KB/s) - 'activehistory.ca/papers/roundtable/index.html@share=email' saved [58456]
+
+--2021-09-30 11:39:47--  http://activehistory.ca/papers/the-home-archivist/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/the-home-archivist/?shared=email&msg=fail [following]
+--2021-09-30 11:39:49--  http://activehistory.ca/papers/the-home-archivist/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/the-home-archivist/index.html@share=email'
+
+activehistory.ca/papers/the-h     [      <=>                                         ]  37.49K  19.9KB/s    in 1.9s
+
+2021-09-30 11:39:51 (19.9 KB/s) - 'activehistory.ca/papers/the-home-archivist/index.html@share=email' saved [38387]
+
+--2021-09-30 11:39:53--  http://activehistory.ca/papers/historypaper-8/LaineyGossip.com
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:39:53 ERROR 404: Not Found.
+
+--2021-09-30 11:39:55--  http://activehistory.ca/papers/historypaper-8/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/historypaper-8/?shared=email&msg=fail [following]
+--2021-09-30 11:39:58--  http://activehistory.ca/papers/historypaper-8/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/historypaper-8/index.html@share=email'
+
+activehistory.ca/papers/histo     [         <=>                                      ]  68.46K  21.0KB/s    in 3.3s
+
+2021-09-30 11:40:01 (21.0 KB/s) - 'activehistory.ca/papers/historypaper-8/index.html@share=email' saved [70099]
+
+--2021-09-30 11:40:03--  http://activehistory.ca/papers/wp-includes/js/tinymce/plugins/wpgallery/img/t.gif
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:40:03 ERROR 404: Not Found.
+
+--2021-09-30 11:40:05--  http://activehistory.ca/papers/what-can-oral-history-teach-us/www.lifestoriesmontreal.ca
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:40:06 ERROR 404: Not Found.
+
+--2021-09-30 11:40:08--  http://activehistory.ca/papers/what-can-oral-history-teach-us/post.php?post=4058&action=edit&message=10
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:40:08 ERROR 404: Not Found.
+
+--2021-09-30 11:40:10--  http://activehistory.ca/papers/papers/history-paper-3/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/history-paper-3/ [following]
+--2021-09-30 11:40:12--  http://activehistory.ca/papers/history-paper-3/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/papers/history-paper-3/index.html'
+
+activehistory.ca/papers/paper     [             <=>                                  ]  97.38K  20.0KB/s    in 4.9s
+
+2021-09-30 11:40:18 (20.0 KB/s) - 'activehistory.ca/papers/papers/history-paper-3/index.html' saved [99721]
+
+--2021-09-30 11:40:20--  http://activehistory.ca/papers/what-can-oral-history-teach-us/david.webster@uregina.ca
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:40:20 ERROR 404: Not Found.
+
+--2021-09-30 11:40:22--  http://activehistory.ca/papers/what-can-oral-history-teach-us/post.php?post=672&action=edit
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:40:22 ERROR 404: Not Found.
+
+--2021-09-30 11:40:24--  http://activehistory.ca/papers/what-can-oral-history-teach-us/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/what-can-oral-history-teach-us/?shared=email&msg=fail [following]
+--2021-09-30 11:40:27--  http://activehistory.ca/papers/what-can-oral-history-teach-us/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/what-can-oral-history-teach-us/index.html@share=email'
+
+activehistory.ca/papers/what-     [              <=>                                 ] 108.33K  20.6KB/s    in 5.3s
+
+2021-09-30 11:40:32 (20.6 KB/s) - 'activehistory.ca/papers/what-can-oral-history-teach-us/index.html@share=email' saved [110931]
+
+--2021-09-30 11:40:34--  http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-1-can-pop-hist-lit/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-1-can-pop-hist-lit/index.html'
+
+activehistory.ca/papers/a-pol     [     <=>                                          ]  31.29K  20.0KB/s    in 1.6s
+
+2021-09-30 11:40:36 (20.0 KB/s) - 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-1-can-pop-hist-lit/index.html' saved [32041]
+
+--2021-09-30 11:40:38--  http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-2-chapters/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-2-chapters/index.html'
+
+activehistory.ca/papers/a-pol     [     <=>                                          ]  31.36K  19.9KB/s    in 1.6s
+
+2021-09-30 11:40:40 (19.9 KB/s) - 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-2-chapters/index.html' saved [32116]
+
+--2021-09-30 11:40:42--  http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-3-chapters-expunged/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-3-chapters-expunged/index.html'
+
+activehistory.ca/papers/a-pol     [     <=>                                          ]  31.75K  19.8KB/s    in 1.6s
+
+2021-09-30 11:40:44 (19.8 KB/s) - 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-3-chapters-expunged/index.html' saved [32517]
+
+--2021-09-30 11:40:46--  http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-4-can-pop-clock/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-4-can-pop-clock/index.html'
+
+activehistory.ca/papers/a-pol     [     <=>                                          ]  31.21K  19.9KB/s    in 1.6s
+
+2021-09-30 11:40:48 (19.9 KB/s) - 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/afigure-4-can-pop-clock/index.html' saved [31961]
+
+--2021-09-30 11:40:50--  http://activehistory.ca/papers/papers/rsandwell/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/rsandwell/ [following]
+--2021-09-30 11:40:52--  http://activehistory.ca/papers/rsandwell/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/papers/rsandwell/index.html'
+
+activehistory.ca/papers/paper     [       <=>                                        ]  51.65K  20.9KB/s    in 2.5s
+
+2021-09-30 11:40:55 (20.9 KB/s) - 'activehistory.ca/papers/papers/rsandwell/index.html' saved [52890]
+
+--2021-09-30 11:40:57--  http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/?shared=email&msg=fail [following]
+--2021-09-30 11:40:59--  http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/index.html@share=email'
+
+activehistory.ca/papers/a-pol     [          <=>                                     ]  77.26K  20.6KB/s    in 3.8s
+
+2021-09-30 11:41:03 (20.6 KB/s) - 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/index.html@share=email' saved [79111]
+
+--2021-09-30 11:41:05--  http://activehistory.ca/papers/history-papers-12/1_edn1
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:41:05 ERROR 404: Not Found.
+
+--2021-09-30 11:41:07--  http://activehistory.ca/papers/history-papers-12/%22
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://activehistory.ca/papers/history-papers-12/ [following]
+--2021-09-30 11:41:09--  http://activehistory.ca/papers/history-papers-12/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-12/%22'
+
+activehistory.ca/papers/histo     [              <=>                                 ] 108.86K  20.3KB/s    in 5.4s
+
+2021-09-30 11:41:15 (20.3 KB/s) - 'activehistory.ca/papers/history-papers-12/%22' saved [111475]
+
+--2021-09-30 11:41:17--  http://activehistory.ca/papers/history-papers-12/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-papers-12/?shared=email&msg=fail [following]
+--2021-09-30 11:41:19--  http://activehistory.ca/papers/history-papers-12/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-papers-12/index.html@share=email'
+
+activehistory.ca/papers/histo     [              <=>                                 ] 109.03K  20.3KB/s    in 5.4s
+
+2021-09-30 11:41:25 (20.3 KB/s) - 'activehistory.ca/papers/history-papers-12/index.html@share=email' saved [111645]
+
+--2021-09-30 11:41:27--  http://activehistory.ca/papers/anishinaabeg-in-the-war-of-1812/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/anishinaabeg-in-the-war-of-1812/?shared=email&msg=fail [following]
+--2021-09-30 11:41:29--  http://activehistory.ca/papers/anishinaabeg-in-the-war-of-1812/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/anishinaabeg-in-the-war-of-1812/index.html@share=email'
+
+activehistory.ca/papers/anish     [      <=>                                         ]  38.01K  19.9KB/s    in 1.9s
+
+2021-09-30 11:41:31 (19.9 KB/s) - 'activehistory.ca/papers/anishinaabeg-in-the-war-of-1812/index.html@share=email' saved [38924]
+
+--2021-09-30 11:41:33--  http://activehistory.ca/papers/history-paper-2/info@activehistory.ca
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:41:33 ERROR 404: Not Found.
+
+--2021-09-30 11:41:35--  http://activehistory.ca/papers/history-paper-2/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-paper-2/?shared=email&msg=fail [following]
+--2021-09-30 11:41:38--  http://activehistory.ca/papers/history-paper-2/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-2/index.html@share=email'
+
+activehistory.ca/papers/histo     [           <=>                                    ]  81.68K  19.9KB/s    in 4.1s
+
+2021-09-30 11:41:42 (19.9 KB/s) - 'activehistory.ca/papers/history-paper-2/index.html@share=email' saved [83642]
+
+--2021-09-30 11:41:44--  http://activehistory.ca/papers/history-paper-1/info@activehistory.ca
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:41:45 ERROR 404: Not Found.
+
+--2021-09-30 11:41:47--  http://activehistory.ca/papers/history-paper-1/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-paper-1/?shared=email&msg=fail [following]
+--2021-09-30 11:41:49--  http://activehistory.ca/papers/history-paper-1/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-1/index.html@share=email'
+
+activehistory.ca/papers/histo     [        <=>                                       ]  61.40K  20.4KB/s    in 3.0s
+
+2021-09-30 11:41:52 (20.4 KB/s) - 'activehistory.ca/papers/history-paper-1/index.html@share=email' saved [62869]
+
+--2021-09-30 11:41:54--  http://activehistory.ca/papers/history-paper-4/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-paper-4/?shared=email&msg=fail [following]
+--2021-09-30 11:41:56--  http://activehistory.ca/papers/history-paper-4/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-4/index.html@share=email'
+
+activehistory.ca/papers/histo     [        <=>                                       ]  57.42K  20.6KB/s    in 2.8s
+
+2021-09-30 11:41:59 (20.6 KB/s) - 'activehistory.ca/papers/history-paper-4/index.html@share=email' saved [58800]
+
+--2021-09-30 11:42:01--  http://activehistory.ca/papers/themes/international/vietnam-et-cuba/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/themes/international/vietnam-et-cuba/?shared=email&msg=fail [following]
+--2021-09-30 11:42:04--  http://activehistory.ca/papers/themes/international/vietnam-et-cuba/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/themes/international/vietnam-et-cuba/index.html@share=email'
+
+activehistory.ca/papers/theme     [        <=>                                       ]  59.65K  20.5KB/s    in 2.9s
+
+2021-09-30 11:42:07 (20.5 KB/s) - 'activehistory.ca/papers/themes/international/vietnam-et-cuba/index.html@share=email' saved [61083]
+
+--2021-09-30 11:42:09--  http://activehistory.ca/papers/history-paper-3/david.webster@uregina.ca
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 404 Not Found
+2021-09-30 11:42:09 ERROR 404: Not Found.
+
+--2021-09-30 11:42:11--  http://activehistory.ca/papers/history-paper-3/figure-1/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/history-paper-3/figure-1: No such file or directory
+activehistory.ca/papers/history-paper-3/figure-1/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/history-paper-3/figure-1/index.html' (Bad file descriptor).
+--2021-09-30 11:42:13--  http://activehistory.ca/papers/history-paper-3/figure-2/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/history-paper-3/figure-2: No such file or directory
+activehistory.ca/papers/history-paper-3/figure-2/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/history-paper-3/figure-2/index.html' (Bad file descriptor).
+--2021-09-30 11:42:16--  http://activehistory.ca/papers/history-paper-3/figure-3/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/history-paper-3/figure-3: No such file or directory
+activehistory.ca/papers/history-paper-3/figure-3/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/history-paper-3/figure-3/index.html' (Bad file descriptor).
+--2021-09-30 11:42:18--  http://activehistory.ca/papers/history-paper-3/figure-4/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/history-paper-3/figure-4: No such file or directory
+activehistory.ca/papers/history-paper-3/figure-4/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/history-paper-3/figure-4/index.html' (Bad file descriptor).
+--2021-09-30 11:42:20--  http://activehistory.ca/papers/history-paper-3/figure-5/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/history-paper-3/figure-5: No such file or directory
+activehistory.ca/papers/history-paper-3/figure-5/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/history-paper-3/figure-5/index.html' (Bad file descriptor).
+--2021-09-30 11:42:22--  http://activehistory.ca/papers/history-paper-3/figure-6/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/history-paper-3/figure-6: No such file or directory
+activehistory.ca/papers/history-paper-3/figure-6/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/history-paper-3/figure-6/index.html' (Bad file descriptor).
+--2021-09-30 11:42:25--  http://activehistory.ca/papers/history-paper-3/figure-7/
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+activehistory.ca/papers/history-paper-3/figure-7: No such file or directory
+activehistory.ca/papers/history-paper-3/figure-7/index.html: No such file or directory
+
+Cannot write to 'activehistory.ca/papers/history-paper-3/figure-7/index.html' (Bad file descriptor).
+--2021-09-30 11:42:27--  http://activehistory.ca/papers/history-paper-3/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/history-paper-3/?shared=email&msg=fail [following]
+--2021-09-30 11:42:30--  http://activehistory.ca/papers/history-paper-3/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/history-paper-3/index.html@share=email'
+
+activehistory.ca/papers/histo     [             <=>                                  ]  97.55K  19.9KB/s    in 4.9s
+
+2021-09-30 11:42:35 (19.9 KB/s) - 'activehistory.ca/papers/history-paper-3/index.html@share=email' saved [99891]
+
+--2021-09-30 11:42:37--  http://activehistory.ca/papers/200-years-of-the-old-chieftain/?share=email
+Connecting to activehistory.ca (activehistory.ca)|142.93.149.250|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/200-years-of-the-old-chieftain/?shared=email&msg=fail [following]
+--2021-09-30 11:42:39--  http://activehistory.ca/papers/200-years-of-the-old-chieftain/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/200-years-of-the-old-chieftain/index.html@share=email'
+
+activehistory.ca/papers/200-y     [      <=>                                         ]  37.81K  19.8KB/s    in 1.9s
+
+2021-09-30 11:42:41 (19.8 KB/s) - 'activehistory.ca/papers/200-years-of-the-old-chieftain/index.html@share=email' saved [38719]
+
+--2021-09-30 11:42:43--  http://activehistory.ca/papers/pbaskerville/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/pbaskerville/?shared=email&msg=fail [following]
+--2021-09-30 11:42:45--  http://activehistory.ca/papers/pbaskerville/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/pbaskerville/index.html@share=email'
+
+activehistory.ca/papers/pbask     [       <=>                                        ]  50.97K  20.7KB/s    in 2.5s
+
+2021-09-30 11:42:48 (20.7 KB/s) - 'activehistory.ca/papers/pbaskerville/index.html@share=email' saved [52194]
+
+--2021-09-30 11:42:50--  http://activehistory.ca/papers/ldick/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/ldick/?shared=email&msg=fail [following]
+--2021-09-30 11:42:52--  http://activehistory.ca/papers/ldick/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/ldick/index.html@share=email'
+
+activehistory.ca/papers/ldick     [       <=>                                        ]  53.64K  20.4KB/s    in 2.6s
+
+2021-09-30 11:42:55 (20.4 KB/s) - 'activehistory.ca/papers/ldick/index.html@share=email' saved [54930]
+
+--2021-09-30 11:42:57--  http://activehistory.ca/papers/aperr/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/aperr/?shared=email&msg=fail [following]
+--2021-09-30 11:42:59--  http://activehistory.ca/papers/aperr/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/aperr/index.html@share=email'
+
+activehistory.ca/papers/aperr     [       <=>                                        ]  51.94K  20.6KB/s    in 2.5s
+
+2021-09-30 11:43:02 (20.6 KB/s) - 'activehistory.ca/papers/aperr/index.html@share=email' saved [53188]
+
+--2021-09-30 11:43:04--  http://activehistory.ca/papers/rsandwell/?share=email
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://activehistory.ca/papers/rsandwell/?shared=email&msg=fail [following]
+--2021-09-30 11:43:06--  http://activehistory.ca/papers/rsandwell/?shared=email&msg=fail
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/rsandwell/index.html@share=email'
+
+activehistory.ca/papers/rsand     [       <=>                                        ]  51.82K  20.9KB/s    in 2.5s
+
+2021-09-30 11:43:09 (20.9 KB/s) - 'activehistory.ca/papers/rsandwell/index.html@share=email' saved [53060]
+
+--2021-09-30 11:43:11--  http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/figure-4-can-pop-clock/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/figure-4-can-pop-clock/index.html'
+
+activehistory.ca/papers/a-pol     [     <=>                                          ]  31.36K  19.9KB/s    in 1.6s
+
+2021-09-30 11:43:13 (19.9 KB/s) - 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/figure-4-can-pop-clock/index.html' saved [32112]
+
+--2021-09-30 11:43:15--  http://activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/figure-1-can-pop-hist-lit/
+Reusing existing connection to activehistory.ca:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/figure-1-can-pop-hist-lit/index.html'
+
+activehistory.ca/papers/a-pol     [     <=>                                          ]  31.35K  19.8KB/s    in 1.6s
+
+2021-09-30 11:43:16 (19.8 KB/s) - 'activehistory.ca/papers/a-polyphony-of-synthesizers-why-every-historian-of-canada-should-write-a-history-of-canada/figure-1-can-pop-hist-lit/index.html' saved [32107]
+
+FINISHED --2021-09-30 11:43:16--
+Total wall clock time: 14m 46s
+Downloaded: 126 files, 7.2M in 6m 0s (20.4 KB/s)
+PS C:\Users\lefev\wget-activehistory>
