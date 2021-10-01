@@ -7,8 +7,8 @@ tags: digital_basics, wget
 # what I was trying to do
 
 tried to do the urls-via-different-methods thing with wget
-+ https://graddh.netlify.app/docs/tutorials/wget/#using-wget-with-a-list-of-urls
-+ `[wget](https://github.com/bad-d0nkey/digital-basics/tree/main/wget)`
++ tutorial: https://graddh.netlify.app/docs/tutorials/wget/#using-wget-with-a-list-of-urls
++ repo: `[wget](https://github.com/bad-d0nkey/digital-basics/tree/main/wget)`
 
 ## how it might connect to other research I'm doing
 
