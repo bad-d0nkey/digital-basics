@@ -1,6 +1,6 @@
 ---
 tutorial: command line basics for pc
-date: {{09/30/21}}
+date: 30/09/21
 tags: command_line, digital_basics
 ---
 
@@ -8,14 +8,21 @@ tags: command_line, digital_basics
 
 Was getting myself oriented in the command prompt/terminal environment. 
 
-+ link to repo: `[command-line-for-pc](https://github.com/bad-d0nkey/digital-basics/tree/main/command-line-for-pc)`
++ tutorial: https://graddh.netlify.app/docs/tutorials/command-line-win/
++ repo: `[command-line-for-pc](https://github.com/bad-d0nkey/digital-basics/tree/main/command-line-for-pc)`
 	+ it's not very exciting - it is just this note	
 
 ## how it might connect to other research I'm doing
 
-A lot of the text processing I've been learning of late takes place at the command line/terminal/whatever. I have no idea what I'm doing, which is not a lot of fun. Switching between GREP, (G)AWK, command prompt, bash, _whatever_ while also having foreign corpus annotation syntax thrown at you without knowing what they are and/or how any of it relates to a "finite state transducer" **_(which, BTW, I am pretty sure is the thing that happend to Lt. Tom Paris when he became a guppy human and is not a thing that happens to a language)_**, why those specific things would be chosen, what they do, or where in the computing environment I am sucks, to be blunt. 
+I am taking computational linguistics (external school) right now. A lot of the text processing I've been learning of late takes place at the command line/terminal/whatever. I have no idea what I'm doing, which is not a lot of fun. Switching between GREP, (G)AWK, command prompt, bash, _whatever_ while also having foreign corpus annotation syntax thrown at you without knowing what they are and/or how any of it relates to a "finite state transducer" 
 
-Being able to orient myself in certain spaces and knowing how to navigate is very helpful. One might go so far as to say "crucial to success". Yaknow? The underlying skills to entering weird-assed code for my purportedly entry-level computational linguistics class was being able to navigate the command line. Which I couldn't do... So these sorts of tutorials (small scope, with "why" included, and a place to hang the knowledge) in this class will help me build a foundation to put all the other random stuff atop.   
+**_(which, BTW, I am pretty sure is the thing that happend to Lt. Tom Paris when he became a guppy human and is not a thing that happens to a language)_**, 
+
+why those specific things would be chosen, what they do, or where in the computing environment I am sucks, to be blunt. I love the course, but i think it would greatly benefit from an approach like this (HIST 5706) class takes. 
+
+Being able to orient myself in certain spaces and knowing how to navigate is very helpful. One might go so far as to say "crucial to success". Yaknow? The underlying skills to entering weird-assed code for my purportedly entry-level computational linguistics class was being able to navigate the command line. Which I couldn't do... So these sorts of tutorials (small scope, with "why" included, and a place to hang the knowledge) in this class will help me build a foundation to put all the other random stuff atop. Right now everything is just a ball of overlapping, tangled barbed wire. 
+
+
 
 ## what I did
 
