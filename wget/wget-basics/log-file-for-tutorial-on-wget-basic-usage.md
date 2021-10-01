@@ -85,4 +85,8 @@ the output thing is still unclear. but i think the question i need to be asking 
 
 #### re: step 7
 
-the `ls` command didn't work in the terminal, but when i navigated later to the C:\ drive, the files were there. i'm not sure why that is (and, again, terminology is getting in my way re: googling), but at least i know the thing worked - and that's the important part
+the `ls` command didn't work in the terminal, but when i navigated later to the C:\ drive, the files were there. 
+
+![active history directory](active-history-directory.PNG)
+
+i'm not sure why that is (and, again, terminology is getting in my way re: googling), but at least i know the thing worked - and that's the important part
