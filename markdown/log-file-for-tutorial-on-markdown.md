@@ -1,6 +1,6 @@
 ---
 tutorial: markdown
-date: {{September 27, 2021}}
+date: 27-09-21
 tags: digital_basics, markdown
 ---
 
@@ -8,7 +8,8 @@ tags: digital_basics, markdown
 
 I tinkered around with markdown. To try and learn... markdown.
 
-+ link to the repo: `[hist-5706/digital-basics/markdown](https://github.com/bad-d0nkey/hist-5706/tree/main/digital-basics/markdown)`
++ tutorial: https://graddh.netlify.app/docs/tutorials/markdown/
++ repo: `[hist-5706/digital-basics/markdown](https://github.com/bad-d0nkey/hist-5706/tree/main/digital-basics/markdown)`
 
 ## how it might connect to other research I'm doing
 
