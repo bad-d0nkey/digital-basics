@@ -68,4 +68,10 @@ not sure until i figure out how other people have used this doing the kind of wo
 
 ## update
 
-related to the other wget log update, which i probably should have put here instead, so i won't belabour the point here. i'm starting to be able to untangle things and get what i'm looking at when i look at the terminal. i even managed to add anaconda to my terminal viewer. ha-ha!
+related to the other wget log update, which i probably should have put here instead, so i won't belabour the point here. i'm starting to be able to untangle things and get what i'm looking at when i look at the terminal. 
+
+![yarn](yarn.PNG)
+
+i even managed to add anaconda to my terminal viewer. ha-ha!
+
+![anaconda added](anaconda.PNG)
