@@ -64,6 +64,8 @@ But this is a challenge I will definitely look into when I have more ground unde
 
 Oh. Also, content control. I'm a bit OCD. Now I have extra folders floating around for no good reason and can't delete them because I didn't think this through. These need to stay so you can see them. Laura, maybe you should have made repositories that you could actually _use_. I guess it's not content control that's the challenge  - thinking about the endgame despite not being presently confident in what I'm doing would be. ;)
 
+![thinking](thinking.gif)
+
 ## thoughts on where to go next
 
 I am going to practice these steps a bunch more times (but with a purpose - no more useless folders). 
