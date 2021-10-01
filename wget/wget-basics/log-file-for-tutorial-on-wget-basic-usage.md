@@ -65,7 +65,7 @@ i'll be asking questions in discord. i really don't know how this fits into anyt
 
 ## update
 
-#### re: step 1/2**
+#### re: step 1/2
 
 i've sorted out with the help of discord and good ole google what each of the mish-mash things is for. i know this isn't important for this class, but the way things were installed on my computer means that i have to access what i do need for this class _through_ the weird add-ons my prof installed. the commands overlap, too, so i think i'm learning something then it turns out the command doesn't work somewhere else. the findings have been these:
 
