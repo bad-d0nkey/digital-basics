@@ -1,24 +1,20 @@
 ---
 tutorial: github - basics
-date: {{29/09/21}}
+date: 29/09/21
 tags: github, digital_basics
 ---
 
 # what I was trying to do
 
 I reviewed the basics of GibHub use in the coursebook. 
-+ https://graddh.netlify.app/docs/tutorials/github-basic/
-
++ tutorial: https://graddh.netlify.app/docs/tutorials/github-basic/
++ repo (**NB**: I created this repo following the tutorial - there is no documentation for the activity itself): `[how-did-they-do-that](https://github.com/bad-d0nkey/how-did-they-do-that)`
+	
 I also began the "Build Your Presence" tutorial. 
-+ https://shawngraham.github.io/dhmuse/building-your-online-presence/
++ tutorial: https://shawngraham.github.io/dhmuse/building-your-online-presence/
++ repo (**NB**: my "success" was working through the first step - not in editing the page): `[academic-kickstart](https://github.com/bad-d0nkey/academic-kickstart)`
 
-My attention was on doing the basics _right_. I can jury-rig my way through things, but it's not in a fun "try and fail" way - it's actually really counterproductive. I wanted to fill in the gaps so attempts/fails actually got somewhere beyond the first step. You know that "if nothing happens in the first half hour..." expression you have? It was an endless series of frustrating half-hours that never got beyond that. No more!
-
-+ link to the test file repo (**NB**: I created this repo following the tutorial - there is no documentation for the activity itself): 
-	`[how-did-they-do-that](https://github.com/bad-d0nkey/how-did-they-do-that)`
-
-+ link to the web page repo (**NB**: my "success" was working through the first step - not in editing the page):
-	`[academic-kickstart](https://github.com/bad-d0nkey/academic-kickstart)`
+My attention was on doing the basics _right_. I can jury-rig my way through things, but it's not in a fun "try and fail" way - it's actually really counterproductive. I wanted to fill in the gaps so attempts/fails actually got somewhere beyond the first step. You know that "if nothing happens in the first half hour..." expression you have? It was an endless series of frustrating half-hours that never got beyond that. No more! 
 	
 ## how it might connect to other research I'm doing
 
