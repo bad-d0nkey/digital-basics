@@ -49,7 +49,7 @@ i am actually not sure yet. the term has come up a few times, so i know it's som
 	+ i manually copied the results and pasted them into a .txt file. [right here, in fact](https://github.com/bad-d0nkey/digital-basics/blob/4fe395b0f304124bd13f5dfcffb34ecc43be00bf/wget/wget_output.txt)
  	
 + step 7: tried to noodle out where these results went and why the directory thing mattered
-	+ the results don't show up in the directory
+	+ the results don't show up in the directory when i use the `ls` command
 
 	![directory contents](wget_ls-directory.PNG)
 
@@ -79,7 +79,8 @@ i've sorted out with the help of discord and good ole google what each of the mi
 #### re: step 6
 
 the output thing is still unclear. but i think the question i need to be asking is why i wanted to save it. 
-+ i think where this came from was in my LING class, where it _looks_ like we're doing very similar things - and even using some of the same commands - but very much are not -> in LING, the results are important and aren't saved anywhere. when you move on, they're gone. 
++ i think where this came from was in my LING class, where it _looks_ like we're doing very similar things - and even using some of the same commands - but very much are not
++ in LING, the results are important and aren't saved anywhere. when you move on, they're gone. 
 + as we needed to upload stuff to a repository (and as I couldn't figure out the thing below in step 7), this felt like a problem. i have discovered it is not.   
 
 #### re: step 7
