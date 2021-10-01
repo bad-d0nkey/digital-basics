@@ -1,6 +1,6 @@
 ---
 tutorial: wget_basic-usage
-date: {{30-09-21}}
+date: 30/09/21
 tags: digital_basics, wget
 ---
 
@@ -20,7 +20,7 @@ i am actually not sure yet. the term has come up a few times, so i know it's som
 
 ## what I did
 
-+ step 1: sort out the command prompt/powershell/terminal/ubuntu thing
++ step 1: sort out the command prompt/powershell/terminal/ubuntu thing so i know where to work
 	+ okay, that was not so confusing after all
 	
 + step 2: determine if wget was installed
@@ -61,4 +61,27 @@ i don't know what i don't know. i need to ask questions re: the above so i can d
 
 ## thoughts on where to go next
 
-i'll be asking questions in discord. i really don't know how this fits into anything. when i can dig more, i will be able to ask better questions and solve the remainign riddles i have. and open a whole world of other ones, i'm sure. lol.
+i'll be asking questions in discord. i really don't know how this fits into anything. when i can dig more, i will be able to ask better questions and solve the remaining riddles i have. and open a whole world of other ones, i'm sure. lol.
+
+## update
+
+#### re: step 1/2**
+
+i've sorted out with the help of discord and good ole google what each of the mish-mash things is for. i know this isn't important for this class, but the way things were installed on my computer means that i have to access what i do need for this class _through_ the weird add-ons my prof installed. the commands overlap, too, so i think i'm learning something then it turns out the command doesn't work somewhere else. the findings have been these:
+
++ leave the ubuntu thing alone
+	+ deal with that only as required for my LING class 
+	+ i had been being prompted to use this _instead_ of command prompt because it was "better and was exactly the same thing" - but that wasn't the case and was causing me problems in HIST
+
++ i can access command prompt _through_ the WSL terminal thing
+	+ i just need to launch that one i need when i need it (i have choices and now i know when to make them)
+
+#### re: step 6
+
+the output thing is still unclear. but i think the question i need to be asking is why i wanted to save it. 
++ i think where this came from was in my LING class, where it _looks_ like we're doing very similar things - and even using some of the same commands - but very much are not -> in LING, the results are important and aren't saved anywhere. when you move on, they're gone. 
++ as we needed to upload stuff to a repository (and as I couldn't figure out the thing below in step 7), this felt like a problem. i have discovered it is not.   
+
+#### re: step 7
+
+the `ls` command didn't work in the terminal, but when i navigated later to the C:\ drive, the files were there. i'm not sure why that is (and, again, terminology is getting in my way re: googling), but at least i know the thing worked - and that's the important part
