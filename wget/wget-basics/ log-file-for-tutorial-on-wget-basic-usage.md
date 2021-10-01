@@ -6,13 +6,13 @@ tags: digital_basics, wget
 
 # what I was trying to do
 
-i attempted the wget tutorial. to learn how to run wget. 
+i attempted the wget tutorial. to learn how to run wget.
 okay, that's a lie. it's because i secretly want to terrorize the province of quebec and i've heard this is a good place to start. 
 
 i also need to understand what it is, why i would use it, and where it fits/lives in the mishmash set-up i've got going on. 
 
-+ link to the tutorial: https://graddh.netlify.app/docs/tutorials/wget/
-+ link to repo: like this: `[wget](https://github.com/bad-d0nkey/digital-basics/wget)`
++ tutorial: https://graddh.netlify.app/docs/tutorials/wget/
++ repo: like this: `[wget](https://github.com/bad-d0nkey/digital-basics/wget)`
 
 ## how it might connect to other research I'm doing
 
