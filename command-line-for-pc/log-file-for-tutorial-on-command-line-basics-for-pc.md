@@ -14,15 +14,15 @@ Was getting myself oriented in the command prompt/terminal environment.
 
 ## how it might connect to other research I'm doing
 
-I am taking computational linguistics (external school) right now. A lot of the text processing I've been learning of late takes place at the command line/terminal/whatever. I have no idea what I'm doing, which is not a lot of fun. Switching between GREP, (G)AWK, command prompt, bash, _whatever_ while also having foreign corpus annotation syntax thrown at you without knowing what they are and/or how any of it relates to a "finite state transducer" 
+I am taking computational linguistics (external school) right now. A lot of the text processing I've been learning of late takes place at the command line/terminal/whatever. I have no idea what I'm doing, which is not a lot of fun. We've isntalled a _bunchofthings_ and use similar commands to do _somerandomthings_ and while I sort of recognise overlaps, everything is sort of balled up into a tangle of barbed wire. Switching between GREP, (G)AWK, command prompt, bash, _whatever_ while also having foreign corpus annotation syntax thrown at you without knowing what they are and/or how any of it relates to a "finite state transducer", 
 
-**_(which, BTW, I am pretty sure is the thing that happend to Lt. Tom Paris when he became a guppy human and is not a thing that happens to a language)_**, 
+> **_(which, BTW, I am pretty sure is the thing that happend to Lt. Tom Paris when he became a guppy human and is not a thing that happens to a language)_** 
 
-why those specific things would be chosen, what they do, or where in the computing environment I am sucks, to be blunt. I love the course, but i think it would greatly benefit from an approach like this (HIST 5706) class takes. 
+why those specific things would be chosen, what they do, or where in the computing environment I am... well... sucks, to be blunt. I love the course, but i think it would greatly benefit from an approach like this (HIST 5706) class takes. 
 
-Being able to orient myself in certain spaces and knowing how to navigate is very helpful. One might go so far as to say "crucial to success". Yaknow? The underlying skills to entering weird-assed code for my purportedly entry-level computational linguistics class was being able to navigate the command line. Which I couldn't do... So these sorts of tutorials (small scope, with "why" included, and a place to hang the knowledge) in this class will help me build a foundation to put all the other random stuff atop. Right now everything is just a ball of overlapping, tangled barbed wire. 
+![breathe](inhale-exhale.gif)
 
-
+Enter this lovely tutorial. Being able to orient myself in certain spaces and knowing how to navigate is very helpful. One might go so far as to say "crucial to success". Yaknow? The underlying skills to entering weird-assed code for my purportedly entry-level computational linguistics class was being able to navigate the command line. Which I couldn't do... So these sorts of tutorials (small scope, with "why" included, and a place to hang the knowledge) in this class will help me build a foundation to put all the other random stuff atop. I just need to build a rough home base. Then I can start getting comfortable.
 
 ## what I did
 
@@ -64,7 +64,6 @@ Being able to orient myself in certain spaces and knowing how to navigate is ver
 		  "cursorColor": "#FDF500"
 		}
 		```
-
 ## challenges 
 
 this exercise was fairly straightforward. i ran through it several times. i read the cheatsheet linked to in coursebook. i wrote notes. i did try to go one step beyond with the colour thing, but it turned out that was a separate skill. a challenge, but not directly related to command prompt 101 as i am focussed on. 
@@ -75,4 +74,6 @@ i am looking for additional lessons that actually explain the point of something
 
 oh. come to think of it, if i could get to the point where i'm clear enough on what to do to work out what the hell is going on in the [github-at-the-command-line thing](https://github.com/bad-d0nkey/digital-basics/blob/main/github-basics/log-file-for-tutorial-on-github-basics.md.md) (not to use it, necessarily, but to be able to recognise the pieces and the whys), that might be a good thing that (a) shows progress, and (b) might turn out to be useful, though i'm not sure i'll ever co-code anything with someone like that.
 
-*addendum: okay, i'm going to do the [github at the command line tutorial](https://graddh.netlify.app/docs/tutorials/github-cli/). not now. but i'm suspecting at some point during this course once this material has had some time to settle...
+## update
+
+okay, things have settled a bit. i've worked through a few more tutorials and i'm pledging to myself that i am going to do the [github at the command line tutorial](https://graddh.netlify.app/docs/tutorials/github-cli/) either this week or in the digital tune-up week. this is good!
