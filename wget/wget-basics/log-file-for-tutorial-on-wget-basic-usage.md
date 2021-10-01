@@ -80,7 +80,7 @@ i've sorted out with the help of discord and good ole google what each of the mi
 
 the output thing is still unclear. but i think the question i need to be asking is why i wanted to save it. 
 + i think where this came from was in my LING class, where it _looks_ like we're doing very similar things - and even using some of the same commands - but very much are not
-+ in LING, the results are important and aren't saved anywhere. when you move on, they're gone. 
+	+ in LING, the results are important and aren't saved anywhere. when you move on, they're gone. 
 + as we needed to upload stuff to a repository (and as I couldn't figure out the thing below in step 7), this felt like a problem. i have discovered it is not.   
 
 #### re: step 7
