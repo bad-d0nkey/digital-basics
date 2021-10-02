@@ -30,7 +30,7 @@ i know that anaconda is the suite that the folks who have shown me a few things 
 + step 4: uninstalled second r environment
   + this required stackoverflowing -> i located this [thread](https://stackoverflow.com/questions/49127834/removing-conda-environment) and picked out the pieces _i hoped_ i needed, specifically...
 
-![removing environment](conda-remove.PNG)
+![removing environment](conda remove.PNG)
 
   + i identified that the extra rstudio environment had a hyphen after the name, so i entered
   
