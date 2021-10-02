@@ -28,27 +28,27 @@ i know that a lot of the data i use in projects comes from sites that have apis.
 	+ pip and pygments were installed, but json returned no result
 	+ i had had a problem with json previously, so i thought perhaps this was a prevailing thing
 	+ [stackoverflowing advised](https://stackoverflow.com/questions/61112485/why-is-pip-install-json-showing-version-error) that with the sort of dealio we have set up for ourselves, we don't have to specifically install json anymore
-	  + i am satisfied with this answer because i just uninstalled and reinstalled the latest things
-  + did a test in my terminal "settings" function and the json button that was greyed out yesterday was now visible
+		+ i am satisfied with this answer because i just uninstalled and reinstalled the latest things
+  	+ did a test in my terminal "settings" function and the json button that was greyed out yesterday was now visible
  
  + step 4: ran the script
-  + this went fine. 
-  + i then checked where the [output](data.JSON) went to live and found it quite healthy and happy in a very logical place
+ 	+ this went fine. 
+ 	+ i then checked where the [output](data.json) went to live and found it quite healthy and happy in a very logical place
 
 + step 5: tried converting the file
-  + easy-breasy. [see ?](data.csv)
+  	+ easy-breasy. [see?](data.csv)
 
 + step 6: tried doing one on my own
-  + nope. but i suspect this is because of the nature of the site i picked. it was likely not a good one for this.
-  + made a new [script file](ca2.py)
-  + ran the deal and got this...
+	+ nope. but i suspect this is because of the nature of the site i picked. it was likely not a good one for this.
+	+ made a new [script file](ca2.py)
+	+ ran the deal and got this...
 
 ![whoops](ram-api-errors.PNG) 
 
-  + i worked through what the error returned and dug a little, but left this. rationale below...
+	+ i worked through what the error returned and dug a little, but left this. rationale below...
 
 + step 7: checked out the other examples on the coursebook page
-  + did some clicking, but found i didn't really know how to orientmyself. left this. rationale below... 
+	+ did some clicking, but found i didn't really know how to orientmyself. left this. rationale below... 
 
 ## challenges 
 
@@ -60,4 +60,4 @@ i also couldn't exactly work through the error i got when i tried this on my own
 
 a bit of general digging around to understand more about apis and how to sort this stuff out followed by some fumbling about. i don't know enough to list specifics, but i suspect the specific things i will look at will shake loose from the aforementioned digging around. 
 
-![ouroboros](ouroboros.gif)
+![ouroboros](ouroborous.gif)
